@@ -77,11 +77,12 @@ const Page = () => {
 
       <div className="text-center py-10">
         <h2 className="text-lg lg:text-2xl font-semibold">THE PROCESS</h2>
-        <div className="flex flex-col md:flex-row justify-center gap-10 px-10 mt-6 text-sm">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-10 px-10 mt-6 text-sm">
           <div className="md:w-1/3 text-center">
             <h3 className="font-bold">IDENTIFY TALENT</h3>
             <p>We identify young talent by staging shows across the country. Talents can also upload 60-second content in audio or video format to qualify.</p>
           </div>
+          <div className='w-10 h-2 bg-blue-500 flex '></div>
           <div className="md:w-1/3 text-center">
             <h3 className="font-bold">BOOTCAMP</h3>
             <p>30-day bootcamp experience with training, mentorship, networking, and exposure. Live stage performances for music artists, content production for movie actors.</p>
@@ -123,14 +124,16 @@ const Page = () => {
       </div>
       <div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 py-10">
-        {profiles.map((profile, index) => (
-          <Link key={profile.id} href={`/profile/${profile.id}`} passHref>
-          <div className="cursor-pointer text-center">
-            <img src={profile.image} alt={profile.name} className="rounded-xl w-full h-48 lg:h-80 object-cover" />
-            <p className="text-purple-400 mt-2">#{profile.id} {profile.name}</p>
-          </div>
-        </Link>
-        ))}
+    
+      {profiles.map((profile) => (
+                <Link key={profile.id} href={`/profilepage/${profile.id}`} passHref>
+                    <div className="cursor-pointer text-center">
+                        <img src={profile.image} alt={profile.name} className="rounded-xl w-full h-48 lg:h-80 object-cover" />
+                        <p className="text-purple-400 mt-2">#{profile.id} {profile.name}</p>
+                    </div>
+                </Link>
+            ))}
+
       </div>
       <div className="text-center py-6">
         {!loaded && (
@@ -139,8 +142,7 @@ const Page = () => {
             className="border border-purple-400 text-purple-400 px-6 py-2 rounded-full hover:bg-purple-400 hover:text-white transition">
             View more
           </button>
-        )}
-      </div>
+        )}</div>
       </div>
     </div>
   )
