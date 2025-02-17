@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const Page = () => {
   const router = useRouter();
@@ -54,24 +55,24 @@ const Page = () => {
           <div className="mt-4 space-y-4">
             <input
               type="text"
-              placeholder="FIRST NAME"
+              placeholder="FULL NAME"
               className="w-full p-3 bg-black border border-purple-500 text-gray-300 rounded-md focus:outline-none"
             />
-            <input
+            {/* <input
               type="text"
               placeholder="LAST NAME"
               className="w-full p-3 bg-black border border-purple-500 text-gray-300 rounded-md focus:outline-none"
-            />
+            /> */}
             <input
               type="email"
               placeholder="EMAIL ADDRESS"
               className="w-full p-3 bg-black border border-purple-500 text-gray-300 rounded-md focus:outline-none"
             />
-            <input
+            {/* <input
               type="text"
               placeholder="ADDRESS"
               className="w-full p-3 bg-black border border-purple-500 text-gray-300 rounded-md focus:outline-none"
-            />
+            /> */}
             <input
               type="tel"
               placeholder="TELEPHONE"
@@ -91,9 +92,11 @@ const Page = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start my-10">
+          <Link href="/payment" passHref>
           <button className="bg-white text-black font-semibold px-6 py-3 rounded-full w-full sm:w-auto shadow-md hover:bg-gray-200">
-            CREDIT/DEBIT CARD
+            DEBIT CARD
           </button>
+          </Link>
           <button className="bg-white text-black font-semibold px-6 py-3 rounded-full w-full sm:w-auto shadow-md hover:bg-gray-200">
             BANK TRANSFER
           </button>
