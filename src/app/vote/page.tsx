@@ -1,5 +1,6 @@
 "use client";
 
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 const VotePage = () => {
@@ -32,9 +33,11 @@ const VotePage = () => {
       </div>
 
       <div className='mt-6 px-4 lg:px-10'>
+      <Link href="/contact" passHref>
         <button className='px-6  w-full py-3 border-purple-600 border rounded-lg text-white text-lg font-semibold hover:bg-purple-500 active:bg-purple-700 transition'>
           VOTE
         </button>
+       </Link>
       </div>
 
       <div className='mt-6 flex justify-center gap-4 opacity-50'>

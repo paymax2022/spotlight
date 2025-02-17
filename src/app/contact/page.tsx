@@ -12,7 +12,7 @@ const Page = () => {
       </div>
 
       <div className="mt-10">
-        {/* Step Indicator */}
+      
         <div className="flex justify-between items-center flex-nowrap">
           {/* Step 1 */}
           <div className="flex items-center gap-2">
@@ -34,7 +34,7 @@ const Page = () => {
           </div>
         </div>
 
-        {/* Voting Info */}
+  
         <div>
           <p className="text-[36px] font-bold">VOTING</p>
           <p className="text-[24px] italic text-gray-300">
@@ -43,14 +43,14 @@ const Page = () => {
           </p>
         </div>
 
-        {/* Contact Details Section */}
+   
         <div className="mt-6">
           <p className="text-lg font-semibold">CONTACT DETAILS</p>
           <p className="text-sm text-gray-400">
             Please fill in the form below. Mandatory fields are marked with a *
           </p>
 
-          {/* Form Inputs */}
+       
           <div className="mt-4 space-y-4">
             <input
               type="text"
@@ -90,15 +90,14 @@ const Page = () => {
           </div>
         </div>
 
-        {/* Payment Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start my-10">
-  <button className="bg-white text-black font-semibold px-6 py-3 rounded-full w-full sm:w-auto shadow-md hover:bg-gray-200">
-    CREDIT/DEBIT CARD
-  </button>
-  <button className="bg-white text-black font-semibold px-6 py-3 rounded-full w-full sm:w-auto shadow-md hover:bg-gray-200">
-    BANK TRANSFER
-  </button>
-</div>
+          <button className="bg-white text-black font-semibold px-6 py-3 rounded-full w-full sm:w-auto shadow-md hover:bg-gray-200">
+            CREDIT/DEBIT CARD
+          </button>
+          <button className="bg-white text-black font-semibold px-6 py-3 rounded-full w-full sm:w-auto shadow-md hover:bg-gray-200">
+            BANK TRANSFER
+          </button>
+        </div>
 
       </div>
     </div>
