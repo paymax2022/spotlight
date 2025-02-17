@@ -98,13 +98,13 @@ const HomePage = () => {
         ))}
       </div>
       </div>
-       <div className="bg-white text-black py-8 px-14 rounded-xl mt-10" >
-        <p className="font-bold text-lg" >About Us</p>
-        <p className="mt-3" > <strong>Timeless Entertainment Factory</strong> is a team of problem solvers. Not just for brands, but for each other. We thrive on each member of our little crew being completely themselves, both in their work style and their office banter - and that’s what makes us work!</p>
+       <div className="bg-white text-black py-8 px-10 rounded-xl mt-10" >
+        <p className="font-bold text-lg" >ABOUT US</p>
+        <p className="mt-3 text-lg uppercase" > <strong>Timeless Entertainment Factory</strong> is a team of problem solvers. Not just for brands, but for each other. We thrive on each member of our little crew being completely themselves, both in their work style and their office banter - and that’s what makes us work!</p>
        </div>
        <div className="mt-8 w-full max-w-7xl mx-auto">
          <h2 className="text-lg font-bold mb-4 text-center">LATEST <span className="text-purple-500">SONGS</span></h2>
-         <div className="grid grid-cols-3 gap-3">
+         <div className="grid grid-cols-3 gap-5">
            {musicItems.map((image, index) => (
             <div className="flex justify-center" key={index} >
                <Image  src={image} alt="Music" width={100} height={100} className="rounded-full" />
@@ -116,7 +116,7 @@ const HomePage = () => {
         <h2 className="text-lg font-bold mb-4 text-center">
          LATEST <span className="text-purple-500">RELEASES</span>
         </h2>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-3 gap-5">
         {movieItems.map((image, index) => (
           <div 
             key={index} 
@@ -131,23 +131,23 @@ const HomePage = () => {
          <p>WE IDENTIFY WITH TALENTS ACROSS SELECTED STATES WE PROVIDE THEM A PLATFORM TO EXCEL.</p>
          <p>IN COLLABORATION WITH PICTUREPERFECT AND OTHER LEADING BRANDS.</p>
        </div>
-      <div className="bg-[#6200DF] p-4 mt-8 w-full max-w-7xl mx-auto">
+      <div className="bg-[#6200DF] p-4 mt-8 w-full max-w-7xl mx-auto rounded-lg">
          <h2 className="text-lg font-bold mb-4">STORIES</h2>
-         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-4">
+         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-7 mb-3">
            {storyItems.map((image, index) => (
-             <Image key={index} src={image} alt="Story" width={200} height={250} className="rounded-lg w-full object-cover" />
+             <Image key={index} src={image} alt="Story" width={100} height={100} className="rounded-lg w-full object-fit" />
            ))}
          </div>
        </div>
       <section className="mt-10">
         <h2 className="text-lg font-bold mb-4">JUDGES</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-9">
        {judges.map((image, index) => (
          <div key={index} className="flex justify-center items-center">
             <Image
             src={image}
             alt={`Judge ${index + 1}`}
-            width={351}  
+            width={300}  
             height={385} 
             className="rounded-lg object-cover"
             />
@@ -179,7 +179,7 @@ const HomePage = () => {
         <div className="flex justify-center mt-6">
           <button
             onClick={() => setVisibleNews(newsItems.length)}
-            className="border border-blue-400 px-6 py-2 rounded-full text-blue-400 hover:bg-blue-400 hover:text-white"
+            className="border border-purple-400 px-6 py-2 rounded-full text-purple-400 hover:bg-purple-400 hover:text-white"
           >
             Read more
           </button>

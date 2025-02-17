@@ -87,6 +87,7 @@ const Page = () => {
             <h3 className="font-bold">BOOTCAMP</h3>
             <p>30-day bootcamp experience with training, mentorship, networking, and exposure. Live stage performances for music artists, content production for movie actors.</p>
           </div>
+          <div className='w-10 h-2 bg-blue-500 flex '></div>
           <div className="md:w-1/3 text-center">
             <h3 className="font-bold">CAREER PROGRESSION</h3>
             <p>Music record deals, brand ambassadorships, and movie roles with long-term engagement with 20+ TV stations.</p>
@@ -114,7 +115,7 @@ const Page = () => {
 
       <div className='px-4' >
       <h2 className="text-lg lg:text-2xl font-semibold">MOVIE/ACTING</h2>
-      <div  className='bg-[#6200DF] px-12 py-8 text-white text-center mb-5 rounded-lg mt-5'>
+      <div  className='bg-[#6200DF] px-12 py-8 text-white text-center mb-5 rounded-lg text-lg uppercase mt-5'>
       Designed to identify good actors, skit makers/content creators. Identify shortfalls for upcoming producers, actors and actresses.
       </div>
       </div>

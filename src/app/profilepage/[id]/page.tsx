@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 
 import { useParams } from "next/navigation";
 
@@ -27,6 +28,10 @@ const ProfilePage = () => {
 
     return (
         <div className="text-white px-4">
+            <div className="space-y-3 text-center mt-5">
+                <p className="text-2xl font-bold" >CONTESTANT</p>
+                <p className="text-lg font-bold" >SEASON #1</p>
+            </div>
             <div className="flex flex-col items-center text-center py-10">
                 <h2 className="text-purple-400 text-xl font-bold">
                     #{selectedProfile.id}. {selectedProfile.name}
@@ -35,12 +40,14 @@ const ProfilePage = () => {
 
                 <div className="relative flex items-center justify-center mt-6">
                     <div className="absolute w-32 h-32 bg-gray-700 rounded-lg blur-md"></div>
-                    <img src={selectedProfile.image} alt={selectedProfile.name} className="rounded-lg w-48 h-48 object-cover shadow-lg relative z-10" />
+                    <img src={selectedProfile.image} alt={selectedProfile.name} width={"auto"} height={"auto"} className="rounded-lg w-72 h-72object-cover shadow-lg relative z-10" />
                 </div>
 
-                <button className="mt-4 px-6 py-2 border border-purple-400 text-purple-400 rounded-lg hover:bg-purple-400 hover:text-white transition">
-                    Vote
-                </button>
+                <Link href="/vote" passHref>
+                 <button className="mt-4 px-6 py-2 border border-purple-400 text-purple-400 rounded-lg hover:bg-purple-400 hover:text-white transition">
+                 Vote
+                 </button>
+                </Link>
             </div>
 
             <div className="px-4">

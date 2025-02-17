@@ -68,7 +68,6 @@ const Footer = () => {
       <div className='mt-5 lg:flex lg:justify-between'>
       <p className="text-sm">© 2025 Timeless Entertainment Factory. All Rights Reserved.</p>
       <div className="flex gap-5 mt-5 lg:align-center ">
-        <Image src="/facebook.png" alt="Facebook Logo" width={22.5} height={10} />
         <Image src="/x.png" alt="X Logo" width={22.5} height={10} />
         <Image src="/instagram.png" alt="Instagram Logo" width={22.5} height={10} />
       </div>
