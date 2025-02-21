@@ -12,7 +12,7 @@ const HomePage = () => {
     { name: "TY MIX", image: "/judgeFive.png" },
     { name: "TIWA SAVAGE", image: "/judgeSix.png" },
   ];
-  
+
   const newsItems = [
     {
       img: "/newsOne.png",
@@ -41,12 +41,12 @@ const HomePage = () => {
     "/storyOne.png",
   ];
   const musicItems = [
-    "/musicOne.png",
-    "/musicTwo.png",
-    "/musicThree.png",
-    "/musicFour.png",
-    "/musicFive.png",
-    "/musicSix.png",
+    { image: "/musicOne.png", name: "Contestant 1" },
+    { image: "/musicTwo.png", name: "Contestant 2" },
+    { image: "/musicThree.png", name: "Contestant 3" },
+    { image: "/musicFour.png", name: "Contestant 4" },
+    { image: "/musicFive.png", name: "Contestant 5" },
+    { image: "/musicSix.png", name: "Contestant 6" },
   ];
 
   const sponsors = [
@@ -113,15 +113,20 @@ const HomePage = () => {
           LATEST <span className="text-purple-500">CONTESTANT</span>
         </h2>
         <div className="grid grid-cols-3 gap-5">
-          {musicItems.map((image, index) => (
-            <div className="flex justify-center" key={index}>
-              <Image
-                src={image}
-                alt="Music"
-                width={100}
-                height={100}
-                className="rounded-full"
-              />
+          {musicItems.map((item, index) => (
+            <div key={index} className="relative flex justify-center">
+              <div className="group relative w-[100px] h-[100px]">
+                <Image
+                  src={item.image}
+                  alt={item.name}
+                  width={100}
+                  height={100}
+                  className="rounded-full object-cover w-full h-full"
+                />
+                <div className="absolute inset-0 bg-gray-800 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity rounded-full">
+                  <span className="text-white text-sm font-bold">{item.name}</span>
+                </div>
+              </div>
             </div>
           ))}
         </div>
@@ -149,22 +154,22 @@ const HomePage = () => {
         </div>
       </div>
       <section className="mt-10">
-  <h2 className="text-lg font-bold mb-4">JUDGES</h2>
-  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-9">
-    {judges.map((judge, index) => (
-      <div key={index} className="flex flex-col items-center">
-        <Image
-          src={judge.image}
-          alt={judge.name}
-          width={300}
-          height={385}
-          className="rounded-lg object-cover"
-        />
-        <p className="mt-2 text-center font-semibold">{judge.name}</p>
-      </div>
-    ))}
-  </div>
-</section>
+        <h2 className="text-lg font-bold mb-4">JUDGES</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-9">
+          {judges.map((judge, index) => (
+            <div key={index} className="flex flex-col items-center">
+              <Image
+                src={judge.image}
+                alt={judge.name}
+                width={300}
+                height={385}
+                className="rounded-lg object-cover"
+              />
+              <p className="mt-2 text-center font-semibold">{judge.name}</p>
+            </div>
+          ))}
+        </div>
+      </section>
       <section className="mt-10">
         <h2 className="text-lg font-bold mb-4">NEWS</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
