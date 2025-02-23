@@ -43,9 +43,9 @@ const Navbar = () => {
             <a href="#" onClick={() => setMenuOpen(false)} className="hover:text-purple-400">
               ABOUT US
             </a>
-            {/* <a href="#" onClick={() => setMenuOpen(false)} className="hover:text-purple-400 flex justify-between">
-              TALENT HUNT <span>›</span>
-            </a> */}
+            <a href="/contestant" onClick={() => setMenuOpen(false)} className="hover:text-purple-400 flex justify-between">
+              CONTESTANTS
+            </a>
             <Link href="/campaign" onClick={() => setMenuOpen(false)} className="hover:text-purple-400">
               CAMPAIGN
             </Link>

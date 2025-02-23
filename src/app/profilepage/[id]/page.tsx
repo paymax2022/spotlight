@@ -1,26 +1,32 @@
 "use client";
 import Link from "next/link";
+import { useState, useEffect, use } from "react";
 
 import { useParams } from "next/navigation";
 
 const ProfilePage = () => {
   const { id } = useParams() as { id: string };
-
+  const paramId= Number(id);
+  const  [userId, setUserId] = useState<number>(paramId); 
+  useEffect(() => {
+    setUserId(paramId);
+  }
+  , [id]);
   if (!id) return <div className="text-white">Profile not found.</div>;
 
   const allProfiles = [
-    { id: "123", name: "ANNA PHLY", age: 22, image: "/profileOne.png", vote: 230 },
-    { id: "124", name: "ANNAh PHLY", age: 23, image: "/profileTwo.png", vote: 200  },
-    { id: "125", name: "ANNA PHLY", age: 24, image: "/profileThree.png", vote: 190 },
-    { id: "126", name: "ANNA PHLY", age: 21, image: "/profileFour.png", vote: 180 },
-    { id: "127", name: "ANNA PHLY", age: 22, image: "/profileFive.png", vote: 170 },
-    { id: "128", name: "ANNA PHLY", age: 25, image: "/profileSix.png", vote: 160 },
-    { id: "129", name: "ANNA PHLY", age: 20, image: "/profileSeven.png", vote: 150 },
-    { id: "122", name: "ANNA PHLY", age: 19, image: "/profileEight.png", vote: 140 },
+    { id: 123, name: "ANNA PHLY", image: "/profileOne.png", votes: 29107, age: 25 },
+    { id: 124, name: "ANNAh PHLY", image: "/profileTwo.png", votes: 2000, age: 26 },
+    { id: 125, name: "ANNA PHLY", image: "/profileThree.png", votes: 21000, age: 27 },
+    { id: 126, name: "ANNA PHLY", image: "/profileFour.png", votes: 18000, age: 28 },
+    { id: 127, name: "ANNA PHLY", image: "/profileFive.png", votes: 15000, age: 29 },
+    { id: 128, name: "ANNA PHLY", image: "/profileSix.png", votes: 12000 , age: 30},
+    { id: 129, name: "ANNA PHLY", image: "/profileSeven.png", votes: 10000, age: 31 },
+    { id: 122, name: "ANNA PHLY", image: "/profileEight.png", votes: 9000, age: 32 },
   ];
 
-  const selectedProfile = allProfiles.find((profile) => profile.id === id);
-  const remainingProfiles = allProfiles.filter((profile) => profile.id !== id);
+  const selectedProfile = allProfiles.find((profile) => profile.id === Number(userId));
+  const remainingProfiles = allProfiles.filter((profile) => profile.id !== Number(userId));
   
 
   if (!selectedProfile) {
@@ -43,10 +49,10 @@ const ProfilePage = () => {
             alt="heart"
             width={"auto"}
             height={"auto"}
-            className="h-6 w-6 inline-block"
+            className="h-6 w-6 mx-3 inline-block"
           />
   
-       {selectedProfile.vote} votes
+       {selectedProfile.votes} votes
     
         </div>
         <p className="text-gray-400">AGE {selectedProfile.age}</p>
@@ -62,7 +68,7 @@ const ProfilePage = () => {
           />
         </div>
 
-        <Link href="/vote" passHref>
+        <Link href="/vote/id" passHref>
           <button className="mt-4 px-6 py-2 border border-purple-400 text-purple-400 rounded-lg hover:bg-purple-400 hover:text-white transition">
             Vote
           </button>
@@ -78,7 +84,7 @@ const ProfilePage = () => {
       <div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 py-10">
           {remainingProfiles.map((profile) => (
-            <div key={profile.id} className="cursor-pointer text-center">
+            <div key={profile.id} onClick={()=>setUserId(profile.id)} className="cursor-pointer text-center">
               <img
                 src={profile.image}
                 alt={profile.name}

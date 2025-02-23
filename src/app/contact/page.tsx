@@ -2,6 +2,7 @@
 import React from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 
 const Page = () => {
   const router = useRouter();
@@ -13,7 +14,25 @@ const Page = () => {
       </div>
 
       <div className="mt-10">
-      
+        <div className="flex gap-10" >
+          <div>
+            <Image
+              src="/profileFour.png"
+              alt="profile"
+              width={100}
+              height={100}
+              className="rounded-lg h-[200px] w-[200px]"
+            />
+          </div>
+          <div>
+            <div className="text-2xl flex gap-4" >
+              <p>Id</p>
+              <p>name</p>
+            </div>
+            <p>vote</p>
+          </div>
+        </div>
+
         <div className="flex justify-between items-center flex-nowrap">
           {/* Step 1 */}
           <div className="flex items-center gap-2">
@@ -35,7 +54,6 @@ const Page = () => {
           </div>
         </div>
 
-  
         <div>
           <p className="text-[36px] font-bold">VOTING</p>
           <p className="text-[24px] italic text-gray-300">
@@ -44,14 +62,12 @@ const Page = () => {
           </p>
         </div>
 
-   
         <div className="mt-6">
           <p className="text-lg font-semibold">CONTACT DETAILS</p>
           <p className="text-sm text-gray-400">
             Please fill in the form below. Mandatory fields are marked with a *
           </p>
 
-       
           <div className="mt-4 space-y-4">
             <input
               type="text"
@@ -93,15 +109,14 @@ const Page = () => {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start my-10">
           <Link href="/payment" passHref>
-          <button className="bg-white text-black font-semibold px-6 py-3 rounded-full w-full sm:w-auto shadow-md hover:bg-gray-200">
-            DEBIT CARD
-          </button>
+            <button className="bg-white text-black font-semibold px-6 py-3 rounded-full w-full sm:w-auto shadow-md hover:bg-gray-200">
+              DEBIT CARD
+            </button>
           </Link>
           <button className="bg-white text-black font-semibold px-6 py-3 rounded-full w-full sm:w-auto shadow-md hover:bg-gray-200">
             BANK TRANSFER
           </button>
         </div>
-
       </div>
     </div>
   );
