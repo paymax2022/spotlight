@@ -42,6 +42,9 @@ const ProfilePage = () => {
       image: "/profileOne.png",
       votes: 29107,
       age: 25,
+      location: "Lagos, Nigeria",
+      bio: "I am a singer, songwriter, and performer. I love to entertain and make people happy.",
+      dob: "1996-05-12",
     },
     {
       id: 124,
@@ -49,6 +52,9 @@ const ProfilePage = () => {
       image: "/profileTwo.png",
       votes: 2000,
       age: 26,
+      location: "Kaduna, Nigeria",
+      bio: "I am a dancer, choreographer, and performer. I love to entertain and make people happy.",
+      dob: "1998-05-12",
     },
     {
       id: 125,
@@ -56,6 +62,9 @@ const ProfilePage = () => {
       image: "/profileThree.png",
       votes: 21000,
       age: 27,
+      location: "Abuja, Nigeria",
+      bio: "I am a comedian, actor, and performer. I love to entertain and make people happy.",
+      dob: "1997-05-12",
     },
     {
       id: 126,
@@ -63,6 +72,9 @@ const ProfilePage = () => {
       image: "/profileFour.png",
       votes: 18000,
       age: 28,
+      location: "Port Harcourt, Nigeria", 
+      bio: "I am a model, actor, and performer. I love to entertain and make people happy.",
+      dob: "1995-05-12",
     },
     {
       id: 127,
@@ -70,6 +82,9 @@ const ProfilePage = () => {
       image: "/profileFive.png",
       votes: 15000,
       age: 29,
+      location: "Enugu, Nigeria",
+      bio: "I am a singer, songwriter, and performer. I love to entertain and make people happy.",
+      dob: "1994-05-12",
     },
     {
       id: 128,
@@ -77,6 +92,9 @@ const ProfilePage = () => {
       image: "/profileSix.png",
       votes: 12000,
       age: 30,
+      location: "Ibadan, Nigeria",
+      bio: "I am a singer, songwriter, and performer. I love to entertain and make people happy.",
+      dob: "1993-05-12",
     },
     {
       id: 129,
@@ -84,6 +102,9 @@ const ProfilePage = () => {
       image: "/profileSeven.png",
       votes: 10000,
       age: 31,
+      location: "Kano, Nigeria",
+      bio: "I am a singer, songwriter, and performer. I love to entertain and make people happy.",
+      dob: "1992-05-12",
     },
     {
       id: 122,
@@ -91,6 +112,9 @@ const ProfilePage = () => {
       image: "/profileEight.png",
       votes: 9000,
       age: 32,
+      location: "Jos, Nigeria",
+      bio: "I am a singer, songwriter, and performer. I love to entertain and make people happy.",
+      dob: "1991-05-12",
     },
   ];
 
@@ -124,7 +148,7 @@ const ProfilePage = () => {
             />
             {selectedProfile.votes} votes
           </div>
-          <p className="text-gray-400">AGE {selectedProfile.age}</p>
+       
 
           <div className="relative flex items-center justify-center mt-6">
             <div className="absolute w-32 h-32 bg-gray-700 rounded-lg blur-md"></div>
@@ -134,7 +158,12 @@ const ProfilePage = () => {
               className="rounded-lg w-72 h-72 object-cover shadow-lg relative z-10"
             />
           </div>
-
+           <div className="mt-4" >
+           <p className="text-purple-400 font-bold" >AGE: <span className="text-white" >{selectedProfile.age}</span></p>
+            <p className="text-purple-400 font-bold" >LOCATION: <span className="text-white" >{selectedProfile.location}</span></p>
+            <p className="text-purple-400 font-bold" >DATE OF BIRTH: <span className="text-white" >{selectedProfile.dob}</span></p>
+            <p className="text-purple-400 font-bold" >BIO: <span className="text-white" >{selectedProfile.bio}</span></p>
+           </div>
           <button
             onClick={() => setIsModalOpen(true)}
             className="mt-4 px-6 py-2 border border-purple-400 text-purple-400 rounded-lg hover:bg-purple-400 hover:text-white transition"
