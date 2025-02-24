@@ -89,7 +89,8 @@ const Page = () => {
               to qualify.
             </p>
           </div>
-          <div className="w-10 h-2 bg-blue-500 flex "></div>
+          <div className="w-20 border-t-2 border-dotted border-purple-500"></div>
+
           <div className="md:w-1/3 text-center">
             <h3 className="font-bold">BOOTCAMP</h3>
             <p>
@@ -98,7 +99,8 @@ const Page = () => {
               production for movie actors.
             </p>
           </div>
-          <div className="w-10 h-2 bg-blue-500 flex "></div>
+          <div className="w-20 border-t-2 border-dotted border-purple-500"></div>
+
           <div className="md:w-1/3 text-center">
             <h3 className="font-bold">CAREER PROGRESSION</h3>
             <p>
