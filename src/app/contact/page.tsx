@@ -9,31 +9,62 @@ const Page = () => {
 
   return (
     <div className="px-6">
-      <div>
-        <button onClick={() => router.back()}>&larr; Back</button>
+   <div className="mt-5">
+        <button
+          onClick={() => router.back()} // Navigate to previous page
+          className="mb-4 flex items-center gap-2 text-purple-400 hover:text-white transition"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={2}
+            stroke="currentColor"
+            className="w-8 h-8"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+          <span className="text-sm lg:text-lg font-medium">Back</span>
+        </button>
       </div>
 
       <div className="mt-10">
-        <div className="flex gap-10" >
+        <div className="flex gap-10">
           <div>
             <Image
               src="/profileFour.png"
               alt="profile"
               width={100}
               height={100}
-              className="rounded-lg h-[200px] w-[200px]"
+              className="rounded-lg h-[150px] w-[150px]"
             />
           </div>
           <div>
-            <div className="text-2xl flex gap-4" >
-              <p>Id</p>
-              <p>name</p>
+            <div className="text-2xl flex gap-4">
+              <div className="flex gap-2 font-bold text-lg">
+                <p>#123</p>
+                <p>ANA PHILLY</p>
+              </div>
             </div>
-            <p>vote</p>
+
+            <div className="mt-5 flex gap-2 justify-center items-center">
+              <div>
+                <Image
+                  src="/heart.svg"
+                  alt="profile"
+                  width={100}
+                  height={100}
+                  className="rounded-lg h-[20px] w-[20px]"
+                />
+              </div>
+              <div>
+                <p>10000</p>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div className="flex justify-between items-center flex-nowrap">
+        <div className="flex justify-between items-center flex-nowrap mt-8">
           {/* Step 1 */}
           <div className="flex items-center gap-2">
             <div className="w-5 h-5 px-2 py-2 flex items-center justify-center rounded-full bg-purple-600 text-white font-semibold">

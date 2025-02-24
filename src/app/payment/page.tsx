@@ -1,15 +1,27 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
+import { useSearchParams } from "next/navigation";
 
-const page = () => {
+
+const Page = () => {
+  const searchParams = useSearchParams();
+  
+  if (searchParams) {
+    console.log(searchParams.get("amount"));
+    console.log(searchParams.get("point"));
+  } else {
+    console.log("Params is null");
+  }
   return (
     <div className="px-4">
      
       <div>
         <p className="text-[36px] font-bold">VOTING</p>
         <p className="text-[24px] italic text-gray-300">
-          YOU ARE MAKING A <span className="text-[#6200DF]">5000</span> VOTING
-          FOR 100 <span className="text-[#6200DF]">POINTS</span>
+          YOU ARE MAKING A <span className="text-[#6200DF]">{searchParams ? searchParams.get("amount") : "N/A"}</span> VOTING
+          FOR  <span className="text-[#6200DF]">{searchParams ? searchParams.get("point") : "N/A"}</span> POINTS
         </p>
       </div>
 
@@ -50,4 +62,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

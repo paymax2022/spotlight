@@ -183,6 +183,8 @@ const Page = () => {
                   <img
                     src={profile.image}
                     alt={profile.name}
+                    height={"auto"}
+                    width={"auto"}
                     className="rounded-xl w-full h-[350px] "
                   />
                   <p className="text-purple-400 mt-2">
