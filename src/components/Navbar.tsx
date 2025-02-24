@@ -49,7 +49,7 @@ const Navbar = () => {
             <Link href="/campaign" onClick={() => setMenuOpen(false)} className="hover:text-purple-400">
               CAMPAIGN
             </Link>
-            <a href="#" onClick={() => setMenuOpen(false)} className="hover:text-purple-400">
+            <a href="/contact-us" onClick={() => setMenuOpen(false)} className="hover:text-purple-400">
               CONTACT US
             </a>
           </nav>

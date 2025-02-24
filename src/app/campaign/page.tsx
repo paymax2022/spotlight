@@ -150,7 +150,7 @@ const Page = () => {
 
       <div className="px-4">
         <h2 className="text-2xl font-bold">
-          LATEST <span className="text-purple-400">TALENT</span>
+          LATEST <span className="text-purple-400">CONTESTANTS</span>
         </h2>
       </div>
       <div>
@@ -185,7 +185,7 @@ const Page = () => {
                     alt={profile.name}
                     height={"auto"}
                     width={"auto"}
-                    className="rounded-xl w-full h-[350px] "
+                    className="rounded-xl w-full sm:h-[300px]  lg:h-[350px]  "
                   />
                   <p className="text-purple-400 mt-2">
                     #{profile.id} {profile.name}
