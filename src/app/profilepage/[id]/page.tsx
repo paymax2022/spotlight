@@ -25,7 +25,7 @@ const ProfilePage = () => {
 
   const handleVote = () => {
     router.push(
-      `/payment?amount=${selectedAmount?.amount}&point=${selectedAmount?.points}`
+      `/contact?amount=${selectedAmount?.amount}&point=${selectedAmount?.points}&user=${userId}`
     );
   };
 

@@ -8,12 +8,12 @@ import { useSearchParams } from "next/navigation";
 const Page = () => {
   const searchParams = useSearchParams();
   
-  if (searchParams) {
-    console.log(searchParams.get("amount"));
-    console.log(searchParams.get("point"));
-  } else {
-    console.log("Params is null");
-  }
+  // if (searchParams) {
+  //   console.log(searchParams.get("amount"));
+  //   console.log(searchParams.get("point"));
+  // } else {
+  //   console.log("Params is null");
+  // }
   return (
     <div className="px-4">
      
