@@ -66,7 +66,7 @@ const Page = () => {
     }
   };
   return (
-    <div className="text-white bg-black px-4">
+    <div className="text-white bg-black max-w-7xl mx-auto">
       <div className="relative bg-gradient-to-r from-black to-purple-900 p-6 rounded-3xl">
         <img
           src="/bannerOne.png"
@@ -155,7 +155,7 @@ const Page = () => {
           LATEST <span className="text-purple-400">CONTESTANTS</span>
         </h2>
       </div>
-      <div>
+      <div className="" >
         <div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 py-10">
             {profiles.map((profile, index) => (

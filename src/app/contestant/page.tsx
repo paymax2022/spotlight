@@ -32,7 +32,7 @@ const ContestantPage = () => {
   };
 
   return (
-    <div className="px-4 text-white">
+    <div className="px-4 text-white max-w-7xl mx-auto">
       <div className="mt-5">
         <button
           onClick={() => router.back()} // Navigate to previous page
