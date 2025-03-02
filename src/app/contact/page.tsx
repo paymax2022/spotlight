@@ -102,7 +102,7 @@ const Page = () => {
     (profile) => profile.id === Number(searchParams?.get("user"))
   );
   return (
-    <div className="px-6">
+    <div className="px-6 bg-black">
       <div className="mt-5">
         <button
           onClick={() => router.back()} // Navigate to previous page
