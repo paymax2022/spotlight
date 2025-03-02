@@ -66,7 +66,7 @@ const Page = () => {
     }
   };
   return (
-    <div className="text-white bg-black max-w-7xl mx-auto">
+    <div className="text-white max-w-7xl mx-auto">
       <div className="relative bg-gradient-to-r from-black to-purple-900 p-6 rounded-3xl">
         <img
           src="/bannerOne.png"

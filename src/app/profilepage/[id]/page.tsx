@@ -131,7 +131,7 @@ const ProfilePage = () => {
 
   return (
     <>
-      <div className="text-white px-4">
+      <div className="text-white px-4 max-w-7xl mx-auto">
         <div className="space-y-3 text-center mt-5">
           <p className="text-2xl font-bold">CONTESTANT</p>
           <p className="text-lg font-bold">SEASON #1</p>
