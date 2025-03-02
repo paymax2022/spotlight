@@ -98,7 +98,7 @@ const HomePage = () => {
           ))}
         </div>
       </div>
-      <div className="bg-white text-black py-8 px-10 rounded-xl mt-10">
+      <div className="bg-white text-black py-8 px-10 rounded-xl max-w-7xl  mx-auto mt-10">
         <p className="font-bold text-lg">ABOUT US</p>
         <p className="mt-3 text-lg uppercase">
           {" "}
@@ -109,18 +109,18 @@ const HomePage = () => {
         </p>
       </div>
       <div className="mt-8 w-full max-w-7xl mx-auto">
-        <h2 className="text-lg font-bold mb-4 text-center">
+        <h2 className="text-lg lg:text-3xl font-bold mb-8 text-center">
           LATEST <span className="text-purple-500">CONTESTANT</span>
         </h2>
         <div className="grid grid-cols-3 gap-5">
           {musicItems.map((item, index) => (
             <div key={index} className="relative flex justify-center">
-              <div className="group relative w-[100px] h-[100px]">
+              <div className="group relative w-[150px] lg:w-[300px] lg:h-[300px]">
                 <Image
                   src={item.image}
                   alt={item.name}
-                  width={100}
-                  height={100}
+                  width={80}
+                  height={80}
                   className="rounded-full object-cover w-full h-full"
                 />
                 <div className="absolute inset-0 bg-gray-800 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity rounded-full">
@@ -131,7 +131,7 @@ const HomePage = () => {
           ))}
         </div>
       </div>
-      <div className="mt-10 text-purple-400 italic text-[22px] text-center">
+      <div className="mt-10 text-purple-400 italic text-[22px] max-w-7xl mx-auto text-center">
         <p>
           WE IDENTIFY WITH TALENTS ACROSS SELECTED STATES WE PROVIDE THEM A
           PLATFORM TO EXCEL.
@@ -153,24 +153,26 @@ const HomePage = () => {
           ))}
         </div>
       </div>
-      <section className="mt-10">
+      <section className="mt-10 max-w-7xl mx-auto ">
         <h2 className="text-lg font-bold mb-4">JUDGES</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-9">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
           {judges.map((judge, index) => (
             <div key={index} className="flex flex-col items-center">
               <Image
                 src={judge.image}
                 alt={judge.name}
-                width={300}
-                height={385}
-                className="rounded-lg object-cover"
+                // width={300}
+                // height={385}
+                width={100}
+                height={100}
+                className="rounded-lg object-cover w-full"
               />
               <p className="mt-2 text-center font-semibold">{judge.name}</p>
             </div>
           ))}
         </div>
       </section>
-      <section className="mt-10">
+      <section className="mt-10 max-w-7xl mx-auto">
         <h2 className="text-lg font-bold mb-4">NEWS</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {newsItems.slice(0, visibleNews).map((news, index) => (
