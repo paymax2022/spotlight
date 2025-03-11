@@ -3,6 +3,17 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import { useRouter } from "next/navigation";
+//import Swipper from "./swipper";
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-cards";
+
+// import required modules
+import { EffectCards } from "swiper/modules";
 
 const voteOptions = [
   { amount: "5000", points: "100" },
@@ -39,7 +50,7 @@ const ProfilePage = () => {
     {
       id: 123,
       name: "ANNA PHLY",
-      image: "/profileOne.png",
+      files: ["/profileOne.png", "/profileOne.png", "/profileOne.png"],
       votes: 29107,
       age: 25,
       location: "Lagos, Nigeria",
@@ -49,7 +60,7 @@ const ProfilePage = () => {
     {
       id: 124,
       name: "ANNAh PHLY",
-      image: "/profileTwo.png",
+      files: ["/profileTwo.png", "/profileOne.png", "/profileOne.png"],
       votes: 2000,
       age: 26,
       location: "Kaduna, Nigeria",
@@ -59,7 +70,7 @@ const ProfilePage = () => {
     {
       id: 125,
       name: "ANNA PHLY",
-      image: "/profileThree.png",
+      files: ["/profileThree.png", "/profileOne.png", "/profileOne.png"],
       votes: 21000,
       age: 27,
       location: "Abuja, Nigeria",
@@ -69,17 +80,17 @@ const ProfilePage = () => {
     {
       id: 126,
       name: "ANNA PHLY",
-      image: "/profileFour.png",
+      files: ["/profileFour.png", "/profileOne.png", "/profileOne.png"],
       votes: 18000,
       age: 28,
-      location: "Port Harcourt, Nigeria", 
+      location: "Port Harcourt, Nigeria",
       bio: "I am a model, actor, and performer. I love to entertain and make people happy.",
       dob: "1995-05-12",
     },
     {
       id: 127,
       name: "ANNA PHLY",
-      image: "/profileFive.png",
+      files: ["/profileFive.png", "/profileOne.png", "/profileOne.png"],
       votes: 15000,
       age: 29,
       location: "Enugu, Nigeria",
@@ -89,7 +100,7 @@ const ProfilePage = () => {
     {
       id: 128,
       name: "ANNA PHLY",
-      image: "/profileSix.png",
+      files: ["/profileSix.png", "/profileOne.png", "/profileOne.png"],
       votes: 12000,
       age: 30,
       location: "Ibadan, Nigeria",
@@ -99,7 +110,7 @@ const ProfilePage = () => {
     {
       id: 129,
       name: "ANNA PHLY",
-      image: "/profileSeven.png",
+      files: ["/profileSeven.png", "/profileOne.png", "/profileOne.png"],
       votes: 10000,
       age: 31,
       location: "Kano, Nigeria",
@@ -109,7 +120,7 @@ const ProfilePage = () => {
     {
       id: 122,
       name: "ANNA PHLY",
-      image: "/profileEight.png",
+      files: ["/profileEight.png", "/profileOne.png", "/profileOne.png"],
       votes: 9000,
       age: 32,
       location: "Jos, Nigeria",
@@ -148,22 +159,46 @@ const ProfilePage = () => {
             />
             {selectedProfile.votes} votes
           </div>
-       
 
-          <div className="relative flex items-center justify-center mt-6">
-            <div className="absolute w-32 h-32 bg-gray-700 rounded-lg blur-md"></div>
-            <img
-              src={selectedProfile.image}
-              alt={selectedProfile.name}
-              className="rounded-lg w-72 h-72 object-cover shadow-lg relative z-10"
-            />
+        <div className="px-6" >
+        <div className="relative flex items-center justify-center mt-6">
+            <Swiper
+              effect={"cards"}
+              grabCursor={true}
+              modules={[EffectCards]}
+              className="mySwiper"
+            >
+              {selectedProfile.files.map((file, index) => (
+                <SwiperSlide >
+                  <div className="rounded-lg w-[450px] h-[450px] shadow-lg relative">
+                    <img
+                      key={index}
+                      src={file}
+                      alt={selectedProfile.name}
+                      className=" w-full h-full object-cover "
+                    />
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
-           <div className="mt-4" >
-           <p className="text-purple-400 font-bold" >AGE: <span className="text-white" >{selectedProfile.age}</span></p>
-            <p className="text-purple-400 font-bold" >LOCATION: <span className="text-white" >{selectedProfile.location}</span></p>
-            <p className="text-purple-400 font-bold" >DATE OF BIRTH: <span className="text-white" >{selectedProfile.dob}</span></p>
-            <p className="text-purple-400 font-bold" >BIO: <span className="text-white" >{selectedProfile.bio}</span></p>
-           </div>
+        </div>
+          <div className="mt-4">
+            <p className="text-purple-400 font-bold">
+              AGE: <span className="text-white">{selectedProfile.age}</span>
+            </p>
+            <p className="text-purple-400 font-bold">
+              LOCATION:{" "}
+              <span className="text-white">{selectedProfile.location}</span>
+            </p>
+            <p className="text-purple-400 font-bold">
+              DATE OF BIRTH:{" "}
+              <span className="text-white">{selectedProfile.dob}</span>
+            </p>
+            <p className="text-purple-400 font-bold">
+              BIO: <span className="text-white">{selectedProfile.bio}</span>
+            </p>
+          </div>
           <button
             onClick={() => setIsModalOpen(true)}
             className="mt-4 px-6 py-2 border border-purple-400 text-purple-400 rounded-lg hover:bg-purple-400 hover:text-white transition"
@@ -187,7 +222,7 @@ const ProfilePage = () => {
                 className="cursor-pointer text-center"
               >
                 <img
-                  src={profile.image}
+                  src={profile.files[0]}
                   alt={profile.name}
                   className="rounded-xl w-full h-48 lg:h-80 object-cover"
                 />

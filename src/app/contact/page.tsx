@@ -105,7 +105,7 @@ const Page = () => {
     <div className="px-6">
       <div className="mt-5">
         <button
-          onClick={() => router.back()} // Navigate to previous page
+          onClick={() => router.back()}
           className="mb-4 flex items-center gap-2 text-purple-400 hover:text-white transition"
         >
           <svg
@@ -135,7 +135,7 @@ const Page = () => {
                 alt="profile"
                 width={100}
                 height={100}
-                className="rounded-lg h-[150px] w-[150px]"
+                className="rounded-lg h-[250px] w-[250px]"
               />
             </div>
             <div>
@@ -164,7 +164,7 @@ const Page = () => {
           </div>
 
           <div className="flex justify-between items-center flex-nowrap mt-8">
-            {/* Step 1 */}
+          
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 px-2 py-2 flex items-center justify-center rounded-full bg-purple-600 text-white font-semibold">
                 1
@@ -172,10 +172,10 @@ const Page = () => {
               <p className="text-sm whitespace-nowrap">VOTING DETAILS</p>
             </div>
 
-            {/* Line */}
+          
             <div className="w-24 h-1 bg-gray-500 mx-auto my-2 rounded-md"></div>
 
-            {/* Step 2 */}
+           
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 px-2 py-2 flex items-center justify-center rounded-full bg-purple-600 text-white font-semibold">
                 2

@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
+
 const Page = () => {
   const categories = [
     {
@@ -67,6 +68,9 @@ const Page = () => {
   };
   return (
     <div className="text-white max-w-7xl mx-auto">
+
+
+
       <div className="relative bg-gradient-to-r from-black to-purple-900 p-6 rounded-3xl">
         <img
           src="/bannerOne.png"

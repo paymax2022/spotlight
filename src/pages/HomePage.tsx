@@ -98,10 +98,9 @@ const HomePage = () => {
           ))}
         </div>
       </div>
-      <div className="bg-white text-black py-8 px-10 rounded-xl max-w-7xl  mx-auto mt-10">
+      <div className="bg-white text-black py-8 px-10 rounded-xl max-w-7xl  mx-auto mt-10" id="about-us">
         <p className="font-bold text-lg">ABOUT US</p>
         <p className="mt-3 text-lg uppercase">
-          {" "}
           <strong>Timeless Entertainment Factory</strong> is a team of problem
           solvers. Not just for brands, but for each other. We thrive on each
           member of our little crew being completely themselves, both in their
