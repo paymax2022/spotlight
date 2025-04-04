@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import Banner from "../../components/HeaderBanner";
 
 // Contestant data with votes
 const contestants = [
@@ -52,6 +53,9 @@ const ContestantPage = () => {
         </button>
       </div>
 
+      <div className="mt-2">
+        <Banner />
+      </div>
       <div className="text-center mb-6">
         <p className="text-lg lg:text-2xl mt-5 font-semibold">CONTESTANT</p>
         <p className="text-sm lg:text-lg text-gray-400">SEASON #1</p>
@@ -100,7 +104,7 @@ const ContestantPage = () => {
 
       {/* Load More Button */}
       {visibleCount < rankedContestants.length && (
-        <div className="text-center mt-6">
+        <div className="text-center my-6">
           <button
             onClick={loadMore}
             className="px-6 py-2 border border-purple-400 text-purple-400 rounded-md hover:bg-purple-600 hover:text-white transition"
