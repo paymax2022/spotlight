@@ -1,9 +1,10 @@
-"use client"; 
+"use client";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 //import Banner from "../../components/HeaderBanner";
 import GeneralBanner from "../../components/HeaderBanner";
+import PayMaxModal from "@/components/PaymaxModal";
 
 // Contestant data with votes
 const contestants = [
@@ -32,7 +33,11 @@ const ContestantPage = () => {
   const loadMore = () => {
     setVisibleCount((prevCount) => prevCount + 4);
   };
+  // Modal state management directly in component
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
   return (
     <div className="px-4 text-white max-w-7xl mx-auto">
       {/* <div className="mt-5">
@@ -55,10 +60,29 @@ const ContestantPage = () => {
       </div> */}
 
       <div className="mt-5">
-        <GeneralBanner  highlightedText="CONTESTANT" />
+        <GeneralBanner highlightedText="CONTESTANT" />
       </div>
+
+      {/* <div className="my-8" >
+        <button className="text-white bg-purple-600 hover:bg-purple-800 px-4 py-2 rounded-[5px] transition-colors">
+          Become a contestant
+        </button>
+      </div> */}
+       <div className="my-8">
+      {/* Button to trigger modal */}
+      <button 
+        onClick={openModal}
+        className="text-white bg-purple-600 hover:bg-purple-800 px-6 py-3 rounded-[5px] transition-colors font-medium text-lg"
+      >
+        Become a Contestant
+      </button>
+
+      {/* Modal */}
+      {isModalOpen && <PayMaxModal onClose={closeModal} />}
+    </div>
+
       <div className="text-center mt-8 mb-6">
-        {/* <p className="text-lg lg:text-2xl mt-5 font-semibold">CONTESTANT</p> */}
+        <p className="text-lg lg:text-2xl mt-5 font-semibold">CONTESTANTS</p>
         <p className="text-sm lg:text-lg text-gray-400">SEASON #1</p>
       </div>
 
