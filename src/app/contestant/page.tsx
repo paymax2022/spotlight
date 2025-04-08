@@ -62,17 +62,11 @@ const ContestantPage = () => {
       <div className="mt-5">
         <GeneralBanner highlightedText="CONTESTANT" />
       </div>
-
-      {/* <div className="my-8" >
-        <button className="text-white bg-purple-600 hover:bg-purple-800 px-4 py-2 rounded-[5px] transition-colors">
-          Become a contestant
-        </button>
-      </div> */}
        <div className="my-8">
       {/* Button to trigger modal */}
       <button 
         onClick={openModal}
-        className="text-white bg-purple-600 hover:bg-purple-800 px-6 py-3 rounded-[5px] transition-colors font-medium text-lg"
+        className="text-white bg-purple-600 hover:bg-purple-800 px-4 py-3 rounded-[5px] transition-colors font-medium text-lg"
       >
         Become a Contestant
       </button>
