@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const HomePage = () => {
   const judges = [
@@ -69,9 +70,11 @@ const HomePage = () => {
           Your journey in music & film starts here.
         </p>
         <div className="flex justify-center">
+        <Link href="/contestant">
           <button className="mt-4 px-10 py-3 rounded-lg text-white font-medium bg-gradient-to-r from-purple-600 to-pink-500 ">
             Get Started
           </button>
+          </Link>
         </div>
       </div>
       <div className="flex justify-center mt-16">
