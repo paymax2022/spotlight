@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../../components/HeaderBanner";
+import GeneralBanner from "@/components/HeaderBanner";
 import CarouselPage from "../../components/CarouselPage";
 const profiles = [
   { name: "Patrick", title: "CEO" },
@@ -31,8 +31,8 @@ const page = () => {
 
   return (
     <div className="text-white max-w-7xl mx-auto px-4">
-      <div className="mt-2" >
-      <Banner />
+      <div className="mt-5">
+        <GeneralBanner  highlightedText="ABOUT US" />
       </div>
 
       <div className="flex my-10 flex-col lg:flex-row  lg:gap-10 lg:justify-between">

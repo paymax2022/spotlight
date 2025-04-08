@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-
+import GeneralBanner from "@/components/HeaderBanner";
 
 const Page = () => {
   const categories = [
@@ -57,31 +57,24 @@ const Page = () => {
 
   useEffect(() => {
     // Sort profiles by votes in descending order
-    setProfiles((prevProfiles) => [...prevProfiles].sort((a, b) => b.votes - a.votes));
+    setProfiles((prevProfiles) =>
+      [...prevProfiles].sort((a, b) => b.votes - a.votes)
+    );
   }, []);
 
   const loadMoreProfiles = () => {
     if (!loaded) {
-      setProfiles((prevProfiles) => [...prevProfiles, ...moreProfiles].sort((a, b) => b.votes - a.votes));
+      setProfiles((prevProfiles) =>
+        [...prevProfiles, ...moreProfiles].sort((a, b) => b.votes - a.votes)
+      );
       setLoaded(true);
     }
   };
   return (
-    <div className="text-white max-w-7xl mx-auto">
-
-
-
-      <div className="relative bg-gradient-to-r from-black to-purple-900 p-6 rounded-3xl">
-        <img
-          src="/bannerOne.png"
-          alt="Breakdancer"
-          className="w-full h-100 lg:h-80 object-cover opacity-50 rounded-b-3xl"
-        />
-        <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl font-bold">
-          OUR <span className="text-purple-400">APPROACH</span>
-        </h1>
+    <div className="text-white max-w-7xl mx-auto px-4">
+      <div className="mt-5">
+        <GeneralBanner highlightedText="CAMPAIGN" />
       </div>
-
       <div className="text-center py-10">
         <h2 className="text-lg lg:text-2xl font-semibold">THE PROCESS</h2>
         <div className="flex flex-col md:flex-row justify-center items-center gap-10 px-10 mt-6 text-sm">
@@ -159,7 +152,7 @@ const Page = () => {
           LATEST <span className="text-purple-400">CONTESTANTS</span>
         </h2>
       </div>
-      <div className="" >
+      <div className="">
         <div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 py-10">
             {profiles.map((profile, index) => (
@@ -171,10 +164,10 @@ const Page = () => {
                 <div className="cursor-pointer text-center relative">
                   <div className="absolute top-0 w-full p-2">
                     <div className="flex justify-between">
-                    <div className="bg-purple-600 text-white text-xs font-bold px-2 py-1 rounded-full">
-                      {index + 1}
-                    </div>
-                     <div className="text-xs font-medium flex items-center gap-1">
+                      <div className="bg-purple-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        {index + 1}
+                      </div>
+                      <div className="text-xs font-medium flex items-center gap-1">
                         <img
                           src="/heart.svg"
                           alt="heart"
@@ -182,7 +175,7 @@ const Page = () => {
                           height={"auto"}
                           className="h-6 w-6 inline-block"
                         />
-                       <p className="font-bold"> {profile.votes} votes</p>
+                        <p className="font-bold"> {profile.votes} votes</p>
                       </div>
                     </div>
                   </div>

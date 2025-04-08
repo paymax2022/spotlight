@@ -2,7 +2,8 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import Banner from "../../components/HeaderBanner";
+//import Banner from "../../components/HeaderBanner";
+import GeneralBanner from "../../components/HeaderBanner";
 
 // Contestant data with votes
 const contestants = [
@@ -34,7 +35,7 @@ const ContestantPage = () => {
 
   return (
     <div className="px-4 text-white max-w-7xl mx-auto">
-      <div className="mt-5">
+      {/* <div className="mt-5">
         <button
           onClick={() => router.back()} // Navigate to previous page
           className="mb-4 flex items-center gap-2 text-purple-400 hover:text-white transition"
@@ -51,13 +52,13 @@ const ContestantPage = () => {
           </svg>
           <span className="text-sm lg:text-lg font-medium">Back</span>
         </button>
-      </div>
+      </div> */}
 
-      <div className="mt-2">
-        <Banner />
+      <div className="mt-5">
+        <GeneralBanner  highlightedText="CONTESTANT" />
       </div>
-      <div className="text-center mb-6">
-        <p className="text-lg lg:text-2xl mt-5 font-semibold">CONTESTANT</p>
+      <div className="text-center mt-8 mb-6">
+        {/* <p className="text-lg lg:text-2xl mt-5 font-semibold">CONTESTANT</p> */}
         <p className="text-sm lg:text-lg text-gray-400">SEASON #1</p>
       </div>
 

@@ -1,5 +1,6 @@
 import React from "react";
-import Banner from "../../components/HeaderBanner";
+import GeneralBanner from "@/components/HeaderBanner";
+
 const location = [
   { name: "Lagos", title: "SUN 13, 2025" },
   { name: "Porthacourt", title: "MON 13, 2025" },
@@ -38,12 +39,12 @@ const page = () => {
   }
   return (
     <div className="text-white max-w-7xl mx-auto px-4">
-      <div className="mt-2">
-        <Banner />
+      <div className="mt-5">
+        <GeneralBanner highlightedText="AUDITION" />
       </div>
-
-      <div className="text-center font-bold lg:text-2xl my-5">AUDITIONS</div>
-      <div className="text-center italic text-lg lg:text-2xl text-[#6200DF] my-5 ">
+{/* 
+      <div className="text-center font-bold lg:text-2xl my-5">AUDITIONS</div> */}
+      <div className="text-center italic text-lg lg:text-2xl text-[#6200DF] my-8 ">
         TIMELESS ENTERTAINMENT FACTORY holds auditions throughout the year for
         its productions in the LAGOS. On this page, you’ll find everything you
         need to know about upcoming audition schedules, how to register, and
