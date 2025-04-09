@@ -62,18 +62,25 @@ const ContestantPage = () => {
       <div className="mt-5">
         <GeneralBanner highlightedText="CONTESTANT" />
       </div>
-       <div className="my-8">
-      {/* Button to trigger modal */}
-      <button 
-        onClick={openModal}
-        className="text-white bg-purple-600 hover:bg-purple-800 px-4 py-3 rounded-[5px] transition-colors font-medium text-lg"
-      >
-        Become a Contestant
-      </button>
+      <div className="my-12 p-6 bg-purple-100 rounded-[5px] shadow-sm text-center max-w-xl mx-auto">
+        <h2 className="text-2xl font-bold text-gray-800 mb-2">
+          Think You’ve Got What It Takes?
+        </h2>
+        <p className="text-gray-600 mb-6">
+          Join the spotlight and showcase your talent. Apply now to become one
+          of our next top contestants!
+        </p>
 
-      {/* Modal */}
-      {isModalOpen && <PayMaxModal onClose={closeModal} />}
-    </div>
+        <button
+          onClick={openModal}
+          className="text-white bg-purple-600 hover:bg-purple-800 px-6 py-3 rounded-[5px] transition-colors font-semibold text-lg"
+        >
+          Become a Contestant
+        </button>
+
+        {/* Modal */}
+        {isModalOpen && <PayMaxModal onClose={closeModal} />}
+      </div>
 
       <div className="text-center mt-8 mb-6">
         <p className="text-lg lg:text-2xl mt-5 font-semibold">CONTESTANTS</p>
