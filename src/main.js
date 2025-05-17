@@ -1,14 +1,10 @@
-import './assets/main.css'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router/index';
 
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
+// ✅ Import global CSS (Bootstrap, your custom styles)
+import './assets/bootstrap/css/bootstrap.min.css';
+import './assets/css/style.css';
+// Add others as needed, like animations.css or font-awesome
 
-import App from './App.vue'
-import router from './router'
-
-const app = createApp(App)
-
-app.use(createPinia())
-app.use(router)
-
-app.mount('#app')
+createApp(App).use(router).mount('#app');
