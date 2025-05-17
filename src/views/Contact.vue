@@ -18,15 +18,16 @@
     </div>
     <div class="col-lg-6 col-md-9 col-sm-8">
      <div class="header_right">
-      <nav class="ms-auto" id="main-menu">
-       <ul>
-        <li>
-         <a class="nav-link" href="contact.html">
-          Contact
-         </a>
-        </li>
-       </ul>
+      <nav class="ms-auto bg-white" id="main-menu">
+        <ul>
+          <li>
+            <router-link class="nav-link" to="/contact">
+              Contact
+            </router-link>
+          </li>
+        </ul>
       </nav>
+
       <div id="mobile_menu">
       </div>
      </div>
@@ -49,10 +50,10 @@
       </a>
      </div>
      <div class="call_to_action">
-      <a class="btn_one" href="login.html">
+      <a class="btn_one" href="#">
        Login
       </a>
-      <a class="btn_two" href="register.html">
+      <a class="btn_two" href="#">
        Sign Up
       </a>
      </div>
@@ -69,10 +70,11 @@
      </h1>
      <ul>
       <li>
-       <a href="index.html">
-        Home
-       </a>
+        <router-link to="/" class="nav-link">
+          Home
+        </router-link>
       </li>
+
       <li>
        / Contact
       </li>
@@ -184,9 +186,9 @@
    <div class="row">
     <div class="col-lg-3 col-sm-6 col-xs-12">
      <div class="single_footer">
-      <a href="index.html">
-       <img alt="" src="../assets/images/all-img/logo2.png"/>
-      </a>
+      <router-link to="/">
+          <img :src="logo" alt="Logo" />
+      </router-link>
       <p>
        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis dignissim.
       </p>
@@ -369,6 +371,8 @@
 </template>
 
 <script setup>
+import logo from '@/assets/images/all-img/logo_2.svg';
+
 const submitForm = async (event) => {
   event.preventDefault();
   const form = event.target;

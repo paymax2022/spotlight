@@ -1047,6 +1047,11 @@
          Support team
         </a>
        </li>
+        <li>
+          <router-link to="/contact" class="nav-link">
+            Contact us
+          </router-link>
+        </li>
       </ul>
      </div>
     </div>
