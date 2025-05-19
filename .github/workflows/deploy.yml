@@ -19,9 +19,6 @@ jobs:
       - name: Build project
         run: NODE_OPTIONS=--openssl-legacy-provider npm run build
 
-      - name: Export static site
-        run: NODE_OPTIONS=--openssl-legacy-provider npx next export
-
       - name: Upload via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.3
         with:
