@@ -26,10 +26,9 @@
    <div class="row">
     <div class="col-lg-6 col-sm-6 col-xs-12">
      <div class="home_content">
-      <div class="typed-out">
-       Starts With Penn
-        Web Developer
-      </div>
+        <div class="typed-out">
+          <span id="typed-text"></span>
+        </div>
       <p>
        Transformative initiative designed to discover, nurture, and empower young Nigerians across multiple fields,
 							 including technology, entrepreneurship, vocational skills, and the creative arts.
@@ -1130,9 +1129,28 @@
 </template>
 
 <script setup>
-// Component logic here
+import { onMounted } from 'vue'
+import Typed from 'typed.js'
+
+onMounted(() => {
+  const options = {
+    strings: ['Starts With Penn', 'Web Developer'],
+    typeSpeed: 60,
+    backSpeed: 30,
+    backDelay: 1500,
+    loop: true
+  }
+
+  new Typed('#typed-text', options)
+})
 </script>
 
+
 <style scoped>
-/* Scoped styles */
+.typed-out {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+}
 </style>
+
