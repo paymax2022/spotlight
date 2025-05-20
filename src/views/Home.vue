@@ -178,7 +178,7 @@
       <img alt="image" class="img-fluid" src="../assets/images/all-img/advert1.png"/>
      </div>
     </div>
-    <div class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1s" data-wow-offset="0">
+    <div id="about-us" class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1s" data-wow-offset="0">
      <div class="ab_content">
       <h2>
        The Talent Hunt
@@ -218,7 +218,7 @@
    </div>
   </div>
  </section>
- <div class="partner-logo section-padding">
+ <div class="partner-logo section-padding" id="sponsors">
   <div class="container">
    <div class="row">
     <div class="col-lg-12 text-center">
@@ -376,7 +376,7 @@
   </div>
  </section>
  <div class="best-cpurse section-padding">
-  <div class="container">
+  <div class="container" id="contests">
    <div class="section-title">
     <h2>
      Popular Categories
@@ -745,7 +745,7 @@
    </div>
   </div>
  </div>
- <section class="testi_home_area section-padding">
+ <section class="testi_home_area section-padding" id="contestants">
   <div class="container">
    <div class="section-title">
     <h2>
@@ -1017,40 +1017,40 @@
       </h4>
       <ul>
        <li>
-        <a href="#">
+        <a href="#about-us">
          About us
         </a>
        </li>
        <li>
-        <a href="#">
+        <a href="#contests">
          Contests
         </a>
        </li>
        <li>
-        <a href="#">
+        <a href="#contestants">
          Contestants
         </a>
        </li>
        <li>
-        <a href="#">
+        <a href="#sponsors">
          sponsors
         </a>
        </li>
        <li>
-        <a href="#">
+        <a href="#sponsors">
          Patrons
         </a>
        </li>
        <li>
-        <a href="#">
+        <a href="#contact">
          Support team
         </a>
        </li>
-        <li>
+        <!-- <li>
           <router-link to="/contact" class="nav-link">
             Contact us
           </router-link>
-        </li>
+        </li> -->
       </ul>
      </div>
     </div>
