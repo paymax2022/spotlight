@@ -13,17 +13,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: npm install --legacy-peer-deps
-
-      - name: Build project
-        run: NODE_OPTIONS=--openssl-legacy-provider npm run build
-
       - name: Upload via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.3
         with:
           server: ftp.spec-ng.com
-          username: jemsenator@spec-ng.com
+          username: developers@spec-ng.com
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./out/
+          local-dir: ./  # set this to where index.html is
           server-dir: /public_html/timeless/
