@@ -13,11 +13,22 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Upload via FTP
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build for production
+        run: npm run build
+
+      - name: Upload dist via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.3
         with:
           server: ftp.spec-ng.com
           username: developers@spec-ng.com
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./  # set this to where index.html is
+          local-dir: dist/
           server-dir: /public_html/timeless/
