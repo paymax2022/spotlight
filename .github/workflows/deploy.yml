@@ -31,4 +31,4 @@ jobs:
           username: developers@spec-ng.com
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: dist/
-          server-dir: /public_html/landing_Page/
+          server-dir: /public_html/timeless-entertainment.com/
