@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -11,27 +11,30 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
   <link rel="stylesheet" href="/assets/index.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 </head>
 <body>
   <div id="app"></div>
 
-  <!-- ✅ Load jQuery and plugins via CDN only -->
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slicknav/1.0.10/jquery.slicknav.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/mixitup@3/dist/mixitup.min.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+  <!-- ✅ Load in strict order with defer -->
+  <script type="module" src="/src/assets/js/jquery-1.12.4.min.js"></script>
+  <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" defer></script>
+  <script type="module" src="/src/assets/js/jquery.slicknav.js" defer></script>
+  <script type="module" src="/src/assets/js/jquery.magnific-popup.min.js" defer></script>
+  <script type="module" src="/src/assets/js/jquery.mixitup.js" defer></script>
+  <script type="module" src="/src/assets/js/scrolltopcontrol.js" defer></script>
+  <script type="module" src="/src/assets/js/purecounter_vanilla.js" defer></script>
+  <script type="module" src="/src/assets/js/wow.min.js" defer></script>
+  <script type="module" src="/src/assets/js/scripts.js" defer></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
+  <!-- Swiper JS -->
+<script type="module" src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-  <!-- Optional: Only if you use these scripts -->
-  <script src="/scripts/scrolltopcontrol.js" defer></script>
-  <script src="/scripts/purecounter_vanilla.js" defer></script>
-  <script src="/scripts/wow.min.js" defer></script>
-  <script src="/scripts/scripts.js" defer></script>
 
-  <!-- ✅ Load Vue App LAST -->
-  <script type="module" crossorigin src="/assets/index.js"></script>
+  <!-- ✅ Load Vue app LAST -->
+  <script type="module" type="module" crossorigin src="/assets/index.js"></script>
 </body>
 </html>
