@@ -92,7 +92,7 @@
     </div>
     <div class="col-lg-6 col-sm-6 col-xs-12">
      <div class="home_me_img">
-      <img alt="" class="img-fluid" src="../assets/images/all-img/advert.png"/>
+      <!-- <img alt="" class="img-fluid" src="../assets/images/all-img/advert.png"/> -->
      </div>
     </div>
    </div>
@@ -219,47 +219,47 @@
   </div>
  </section>
  <div class="partner-logo section-padding" id="sponsors">
-  <div class="container">
-   <div class="row">
-    <div class="col-lg-12 text-center">
-     <div class="partner_title">
-      <h3>
-       Our Partners &amp; Sponsors
-      </h3>
-     </div>
-     <div class="partner">
-      <a href="#">
-       <img alt="image" src="../assets/images/all-img/clients/1.png"/>
-      </a>
-      <a href="#">
-       <img alt="image" src="../assets/images/all-img/clients/2.png"/>
-      </a>
-      <a href="#">
-       <img alt="image" src="../assets/images/all-img/clients/3.png"/>
-      </a>
-      <a href="#">
-       <img alt="image" src="../assets/images/all-img/clients/4.png"/>
-      </a>
-      <a href="#">
-       <img alt="image" src="../assets/images/all-img/clients/5.png"/>
-      </a>
-      <a href="#">
-       <img alt="image" src="../assets/images/all-img/clients/2.png"/>
-      </a>
-      <a href="#">
-       <img alt="image" src="../assets/images/all-img/clients/1.png"/>
-      </a>
-      <a href="#">
-       <img alt="image" src="../assets/images/all-img/clients/3.png"/>
-      </a>
-      <a href="#">
-       <img alt="image" src="../assets/images/all-img/clients/4.png"/>
-      </a>
-     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="partner_title">
+            <h3>Our Partners & Sponsors</h3>
+          </div>
+
+          <Swiper
+            :modules="modules"
+            :slides-per-view="4"
+            :space-between="30"
+            :loop="true"
+            :autoplay="{ delay: 2000, disableOnInteraction: false }"
+            :breakpoints="{
+              320: { slidesPerView: 2 },
+              768: { slidesPerView: 3 },
+              1024: { slidesPerView: 4 }
+            }"
+
+            class="partner swiper-container"
+          >
+            <SwiperSlide
+              v-for="(img, index) in sponsorImages"
+              :key="index"
+              class="flex justify-center items-center"
+            >
+              <a href="#">
+                <img
+                  :src="img"
+                  alt="Sponsor logo"
+                  class="h-16 object-contain"
+                />
+
+              </a>
+            </SwiperSlide>
+          </Swiper>
+        </div>
+      </div>
     </div>
-   </div>
   </div>
- </div>
+
  <section class="marketing_content_area section-padding">
   <div class="container">
    <div class="section-title">
@@ -745,169 +745,59 @@
    </div>
   </div>
  </div>
- <section class="testi_home_area section-padding" id="contestants">
-  <div class="container">
-   <div class="section-title">
-    <h2>
-     Testimonial
-    </h2>
-    <p>
-     What Says
-     <span>
-      <u>
-       Our Contestant
-      </u>
-     </span>
-    </p>
-   </div>
-   <div class="row">
-    <div class="col-lg-12">
-     <div class="owl-carousel" id="testimonial-slider">
-      <div class="testimonial">
-       <div class="testimonial_content">
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <p>
-         This show changed my life! I walked in with a dream and walked out with a career.
-        </p>
-       </div>
-       <div class="testi_pic_title tpt_one">
-        <div class="pic">
-         <img alt="" src="../assets/images/all-img/3c.jpg"/>
+
+  <section class="testi_home_area section-padding" id="contestants">
+    <div class="container">
+        <div class="section-title">
+          <h2>Testimonial</h2>
+          <p>What Says <u><span>Our Contestant</span></u></p>
         </div>
-        <h4>
-         James Clayton
-        </h4>
-        <small class="post">
-         - Musician
-        </small>
-       </div>
-      </div>
-      <div class="testimonial">
-       <div class="testimonial_content">
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <p>
-         Incredible platform! The exposure and mentorship I received are priceless.
-        </p>
-       </div>
-       <div class="testi_pic_title tpt_two">
-        <div class="pic">
-         <img alt="" src="../assets/images/all-img/2c.jpg"/>
-        </div>
-        <h4>
-         James Simmons
-        </h4>
-        <small class="post">
-         - Actor
-        </small>
-       </div>
-      </div>
-      <div class="testimonial">
-       <div class="testimonial_content">
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <p>
-         An inspiring show that truly uplifts and empowers young creatives!
-        </p>
-       </div>
-       <div class="testi_pic_title tpt_three">
-        <div class="pic">
-         <img alt="" src="../assets/images/all-img/1c.png"/>
-        </div>
-        <h4>
-         Alex feroundo
-        </h4>
-        <small class="post">
-         - Model
-        </small>
-       </div>
-      </div>
-      <div class="testimonial">
-       <div class="testimonial_content">
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <p>
-         This show isn’t just entertainment—it’s a life-transforming experience!
-        </p>
-       </div>
-       <div class="testi_pic_title tpt_one">
-        <div class="pic">
-         <img alt="" src="../assets/images/all-img/4c.jpg"/>
-        </div>
-        <h4>
-         Kallu Mastan
-        </h4>
-        <small class="post">
-         - Comedian
-        </small>
-       </div>
-      </div>
-      <div class="testimonial">
-       <div class="testimonial_content">
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <i class="fa fa-star">
-        </i>
-        <p>
-         A rare platform that genuinely supports and uplifts young talent
-        </p>
-       </div>
-       <div class="testi_pic_title tpt_two">
-        <div class="pic">
-         <img alt="" src="../assets/images/all-img/5c.jpg"/>
-        </div>
-        <h4>
-         Devid max
-        </h4>
-        <small class="post">
-         - Musician
-        </small>
-       </div>
-      </div>
-     </div>
+
+        <Swiper
+          :modules="modules"
+          :slides-per-view="1"
+          :loop="true"
+          :autoplay="{ delay: 3000 }"
+          navigation
+          pagination
+          class="mySwiper"
+        >
+          <SwiperSlide>
+            <div class="testimonial">
+              <div class="testimonial_content">
+                <i class="fa fa-star" v-for="i in 5" :key="i"></i>
+                <p>This show changed my life! I walked in with a dream and walked out with a career.</p>
+              </div>
+              <div class="testi_pic_title tpt_one">
+                <div class="pic">
+                  <img src="../assets/images/all-img/3c.jpg" alt="">
+                </div>
+                <h4>James Clayton</h4>
+                <small class="post">- Musician</small>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div class="testimonial">
+              <div class="testimonial_content">
+                <i class="fa fa-star" v-for="i in 5" :key="i"></i>
+                <p>Incredible platform! The exposure and mentorship I received are priceless.</p>
+              </div>
+              <div class="testi_pic_title tpt_two">
+                <div class="pic">
+                  <img src="../assets/images/all-img/2c.jpg" alt="">
+                </div>
+                <h4>James Simmons</h4>
+                <small class="post">- Actor</small>
+              </div>
+            </div>
+          </SwiperSlide>
+        </Swiper>
+
     </div>
-   </div>
-  </div>
- </section>
+  </section>
+
  <div class="contact_area section-padding" id="contact">
   <div class="container">
    <div class="section-title-two">
@@ -1132,7 +1022,31 @@
 import { onMounted } from 'vue'
 import Typed from 'typed.js'
 
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+
+import { Swiper, SwiperSlide } from 'swiper/vue'
+import { Navigation, Pagination, Autoplay } from 'swiper/modules'
+
+const modules = [Navigation, Pagination, Autoplay]
+
+// Sponsor image list (you can make this dynamic)
+const sponsorImages = [
+  new URL('@/assets/images/all-img/clients/1.png', import.meta.url).href,
+  new URL('@/assets/images/all-img/clients/2.png', import.meta.url).href,
+  new URL('@/assets/images/all-img/clients/3.png', import.meta.url).href,
+  new URL('@/assets/images/all-img/clients/4.png', import.meta.url).href,
+  new URL('@/assets/images/all-img/clients/5.png', import.meta.url).href,
+  new URL('@/assets/images/all-img/clients/2.png', import.meta.url).href,
+  new URL('@/assets/images/all-img/clients/1.png', import.meta.url).href,
+  new URL('@/assets/images/all-img/clients/3.png', import.meta.url).href,
+  new URL('@/assets/images/all-img/clients/4.png', import.meta.url).href
+]
+
+
 onMounted(() => {
+  // Typed.js setup
   const options = {
     strings: ['Starts With Penn', 'Web Developer'],
     typeSpeed: 60,
@@ -1140,9 +1054,33 @@ onMounted(() => {
     backDelay: 1500,
     loop: true
   }
-
   new Typed('#typed-text', options)
+
+  // Hide loader after 5 seconds
+  setTimeout(() => {
+    const loader = document.getElementById('loader-wrapper')
+    if (loader) {
+      loader.style.display = 'none'
+    }
+  }, 3000)
+
+
+setTimeout(() => {
+    if (window.jQuery && window.jQuery.fn.owlCarousel) {
+      window.jQuery('#testimonial-slider').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        items: 1
+      });
+    }
+  }, 1000);
+
 })
+
 </script>
 
 

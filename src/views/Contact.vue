@@ -12,7 +12,7 @@
     <div class="col-lg-2 col-md-3 col-sm-4">
      <div class="site-logo">
       <a href="index.html">
-       <img src="@/assets/logo.svg" />
+
       </a>
      </div>
     </div>
