@@ -1,33 +1,37 @@
-<!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="./favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Timeless</title>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="/assets/fonts/themify-icons.css">
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Timeless Talent Hunt</title>
 
-    <!-- External -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <!-- Fonts & Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="/assets/index.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+  <div id="app"></div>
 
-  <!-- <script src="/src/assets/js/jquery-1.12.4.min.js"></script> -->
+  <!-- ✅ Load jQuery and plugins via CDN only -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slicknav/1.0.10/jquery.slicknav.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/mixitup@3/dist/mixitup.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
 
+  <!-- Optional: Only if you use these scripts -->
+  <script src="/scripts/scrolltopcontrol.js" defer></script>
+  <script src="/scripts/purecounter_vanilla.js" defer></script>
+  <script src="/scripts/wow.min.js" defer></script>
+  <script src="/scripts/scripts.js" defer></script>
 
-  <script type="module" src="/src/assets/js/jquery-1.12.4.min.js"></script>
-  <script type="module" src="/src/assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="/src/assets/owlcarousel/js/owl.carousel.min.js"></script>
-  <script src="/src/assets/js/jquery.slicknav.js"></script>
-  <script src="/src/assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="/src/assets/js/jquery.mixitup.js"></script>
-  <script src="/src/assets/js/scrolltopcontrol.js"></script>
-  <script src="/src/assets/js/purecounter_vanilla.js"></script>
-  <script src="/src/assets/js/wow.min.js"></script>
-    <script src="/src/assets/js/scripts.js"></script>
-  </body>
+  <!-- ✅ Load Vue App LAST -->
+  <script type="module" crossorigin src="/assets/index.js"></script>
+</body>
 </html>
