@@ -3,7 +3,7 @@ name: Deploy New_Timeless via FTP
 on:
   push:
     branches:
-      - main
+      - single_page
 
 jobs:
   deploy:
