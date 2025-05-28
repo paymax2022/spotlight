@@ -24,23 +24,11 @@ jobs:
       - name: Build for production
         run: npm run build
 
-      - name: Upload build via FTP
+      - name: Upload dist via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.3
         with:
           server: ftp.spec-ng.com
           username: developers@spec-ng.com
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: .next/
+          local-dir: dist/
           server-dir: /public_html/timeless-entertainment.com/
-          dangerous-clean-slate: true # This will clean the remote directory before uploading
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/node_modules/**
-            **/.env*
-            **/.env*/
-            **/README.md
-            **/.github/**
-            **/.vscode/**
-            **/temp_backup/**
-            **/__MACOSX/**
