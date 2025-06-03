@@ -1,0 +1,85 @@
+import Link from "next/link";
+import React from "react";
+
+const AboutSection = () => {
+  return (
+    <section className="tf__about mt_250 xs_mt_195">
+      <div className="container">
+        <div className="tf__about_top wow fadeInUp">
+          <div className="row">
+            <div className="col-xl-5 col-lg-5">
+              <div className="tf__about_top_img">
+                <img
+                  src="images/AWARDS.PNG"
+                  alt="about"
+                  className="img-fluid w-100"
+                />
+              </div>
+            </div>
+            <div className="col-xl-7 col-lg-7">
+              <div className="tf__about_top_text">
+                <div className="tf__about_top_text_center">
+                  <h4>Study Off Flexibly</h4>
+                  <p>
+                  Spotlight is a groundbreaking national talent hunt show poised to discover, cultivate, and showcase the 
+                  immense artistic and entrepreneurial potential within Nigeria's vibrant creative industries. 
+                  Encompassing Creative Industries & Innovation, Arts, Fashion, and Business investment opportunities. 
+                  "The Spotlight" offers a unique platform to empower young Nigerians, celebrate our rich culture, and drive economic growth.
+                  </p>
+                </div>
+                <a href="#" className="common_btn">
+                  read more
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-xl-6 col-md-9 col-lg-6 wow fadeInLeft">
+            <div className="tf__about_text">
+              <div className="tf__heading_area tf__heading_area_left mb_25">
+             
+                <h2>Our Unique Value Preposition</h2>
+              </div>
+              <p>
+                A Powerful Blend of Talent and Enterprise
+"The Spotlight" offers a unique value proposition that sets it apart
+{" "}
+              </p>
+              <ul>
+                <li>Holistic Approach<ul>
+                  <li>ss</li>
+                </ul></li>
+                <li>We give management school best.</li>
+                
+                <li>Media in this school solution.</li>
+                <li>Business school's Institut constructivism.</li>
+                <li>We give management school best.</li>
+              </ul>
+              <Link href="/about" className="common_btn">
+                about more
+              </Link>
+            </div>
+          </div>
+          <div className="col-xl-6 col-sm-9 col-md-8 col-lg-6 wow fadeInRight">
+            <div className="tf__about_img">
+              <img
+                src="images/about_img.png"
+                alt="about"
+                className="img-fluid w-100"
+              />
+              <div className="text">
+                <i className="far fa-check-circle"></i>
+                <h3>183k+</h3>
+                <p>Complete Projects</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default AboutSection;

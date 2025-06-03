@@ -1,0 +1,15 @@
+import BreadcrumbSection from "@/component/breadcrumb/BreadcrumbSection";
+import AllEventSection from "@/component/event/AllEventSection";
+import Layout from "@/component/layout/Layout";
+export const metadata = {
+  title: 'Timeless Entertainment || Contests',
+  description: 'Talent Hunt Contest',
+}
+export default function Event() {
+    return (
+        <Layout>
+            <BreadcrumbSection header='Contests' title='Contests'/>
+            <AllEventSection/>
+        </Layout>
+    )
+}
