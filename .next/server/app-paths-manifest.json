@@ -1,9 +1,1 @@
-{
-  "/not-found": "app/not-found.js",
-  "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/contests/page": "app/contests/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/contestants/page": "app/contestants/page.js",
-  "/contests/[slug]/page": "app/contests/[slug]/page.js"
-}
+{}
