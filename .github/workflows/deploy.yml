@@ -30,7 +30,7 @@ jobs:
           server: ftp.spec-ng.com
           username: developers@spec-ng.com
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./
+          local-dir: ./out/
           server-dir: /public_html/timeless-entertainment.com/
           dangerous-clean-slate: true # This will clean the remote directory before uploading
           exclude: |
@@ -44,3 +44,4 @@ jobs:
             **/.vscode/**
             **/temp_backup/**
             **/__MACOSX/**
+            **/.DS_Store
