@@ -16,7 +16,7 @@ import AllCourseSection from "@/component/course/AllCourseSection";
 
 
 export const metadata = {
-  title: "Timeless Entertainment ||| Talent Hunt",
+  title: "Spotlight Talent Hunt 2025 | Nigeria's Premier Reality Show",
   description: "Talent Hunt Contest",
 };
 
