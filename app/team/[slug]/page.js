@@ -2,6 +2,8 @@ import BreadcrumbSection from "@/component/breadcrumb/BreadcrumbSection";
 import Layout from "@/component/layout/Layout";
 import TeamDetailSection from "@/component/team/TeamDetailSection";
 import { teamData } from "@/data/Data";
+import ErrorSection from "@/component/error/ErrorSection";
+
 export const metadata = {
   title: "Eduor Team Details Page",
   description: "Talent Hunt Contest",
