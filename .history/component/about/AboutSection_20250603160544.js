@@ -10,7 +10,7 @@ const AboutSection = () => {
             <div className="col-xl-5 col-lg-5">
               <div className="tf__about_top_img">
                 <img
-                  src="images/Awards.png"
+                  src="images/AWARDS.PNG"
                   alt="about"
                   className="img-fluid w-100"
                 />
