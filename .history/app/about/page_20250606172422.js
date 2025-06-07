@@ -5,8 +5,7 @@ import AboutSection3 from "@/component/about/AboutSection3";
 import ActivitySection2 from "@/component/activity/ActivitySection2";
 import BlogSection from "@/component/blog/BlogSection";
 import BreadcrumbSection from "@/component/breadcrumb/BreadcrumbSection";
-import CourseSection from "@/component/course/CourseSection"; 
-import TeamSection from "@/component/team/TeamSection";// R// Review if relevant to Talent Hunt
+import CourseSection from "@/component/course/CourseSection"; // Review if relevant to Talent Hunt
 import FaqSection from "@/component/faq/FaqSection";
 import Layout from "@/component/layout/Layout";
 import PopularServiceSection2 from "@/component/service/PopularServiceSection2"; // Review if relevant to Talent Hunt
@@ -159,22 +158,20 @@ export default function About() {
             <section className="tf__about_us_page mt_195 xs_mt_100">
                 {/* About Section - Ensure this component's content provides detailed info about the show */}
                 <AboutSection3 style=''/>
-               <TeamSection style="tf__team_3 pt_250 pb_100" />
+                
                 {/* Review these components for relevance to a 'Talent Hunt' About page */}
-
-               
-       
-                {/* <PopularServiceSection2/> */}
-                {/* <CourseSection style="tf__popular_courses"/> */}
+                {/* If they are not directly about the show's core, consider moving them or renaming/repurposing them */}
+                <PopularServiceSection2/>
+                <CourseSection style="tf__popular_courses"/>
                 
                 {/* FAQ Section - Excellent for SEO, ensure questions/answers are comprehensive */}
-                {/* <FaqSection img="images/advert1.png"/> */}
+                <FaqSection img="images/advert1.png"/>
                 
                 {/* Activity Section - Good for showing dynamic content related to the show */}
-                {/* <ActivitySection2 style="tf__activities_slider_area pt_95 pb_100"/> */}
+                <ActivitySection2 style="tf__activities_slider_area pt_95 pb_100"/>
                 
                 {/* Blog Section - Crucial for fresh content and long-tail keyword targeting */}
-                {/* <BlogSection/> */}
+                <BlogSection/>
             </section>
         </Layout>
     )

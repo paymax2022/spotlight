@@ -926,74 +926,74 @@ const teamData = [
   },
   {
     id: 7,
-    imgSrc: "images/hiptv.png",
-    // name: "Mia Hernandez",
-    // designation: "Math Teacher",
-    // slug: "mia-hernandez",
-    // about:
-    //   "Mathematics is a fascinating puzzle waiting to be solved. I'm here to guide you through the world of numbers and equations.",
-    // phone: "+1 (890) 123-4567",
+    imgSrc: "images/team_8.jpg",
+    name: "Mia Hernandez",
+    designation: "Math Teacher",
+    slug: "mia-hernandez",
+    about:
+      "Mathematics is a fascinating puzzle waiting to be solved. I'm here to guide you through the world of numbers and equations.",
+    phone: "+1 (890) 123-4567",
   },
-  // {
-  //   id: 8,
-  //   imgSrc: "images/team_9.jpg",
-  //   name: "Luisa Rodriguez",
-  //   designation: "Music Teacher",
-  //   slug: "luisa-rodriguez",
-  //   about:
-  //     "Music is a universal language that brings joy and harmony. Let's explore the magic of melodies and rhythms together.",
-  //   phone: "+1 (901) 234-5678",
-  // },
-  // {
-  //   id: 9,
-  //   imgSrc: "images/team_10.jpg",
-  //   name: "Emma Garcia",
-  //   designation: "Physical Education Teacher",
-  //   slug: "emma-garcia",
-  //   about:
-  //     "Physical fitness is essential for a healthy life. Let's stay active and have fun while developing strength and coordination.",
-  //   phone: "+1 (012) 345-6789",
-  // },
-  // {
-  //   id: 10,
-  //   imgSrc: "images/team_11.jpg",
-  //   name: "Sophie Anderson",
-  //   designation: "History Teacher",
-  //   slug: "sophie-anderson",
-  //   about:
-  //     "History is a fascinating journey through time. Join me in uncovering the stories and events that have shaped our world.",
-  //   phone: "+1 (123) 456-7890",
-  // },
-  // {
-  //   id: 11,
-  //   imgSrc: "images/team_12.jpg",
-  //   name: "Ella Turner",
-  //   designation: "Language Teacher",
-  //   slug: "ella-turner",
-  //   about:
-  //     "Language opens doors to new cultures and perspectives. Let's embark on a linguistic adventure to broaden our horizons.",
-  //   phone: "+1 (234) 567-8901",
-  // },
-  // {
-  //   id: 12,
-  //   imgSrc: "images/team_13.jpg",
-  //   name: "Ava Martinez",
-  //   designation: "Gym Instructor",
-  //   slug: "ava-martinez",
-  //   about:
-  //     "Fitness is not just a goal; it's a lifestyle. Together, we'll work towards achieving a healthy and active way of life.",
-  //   phone: "+1 (345) 678-9012",
-  // },
-  // {
-  //   id: 13,
-  //   imgSrc: "images/team_14.jpg",
-  //   name: "Alex Turner",
-  //   designation: "IT Specialist",
-  //   slug: "alex-turner",
-  //   about:
-  //     "In the digital age, technology is our ally. I'm here to ensure our school's tech infrastructure runs smoothly and securely.",
-  //   phone: "+1 (456) 789-0123",
-  // },
+  {
+    id: 8,
+    imgSrc: "images/team_9.jpg",
+    name: "Luisa Rodriguez",
+    designation: "Music Teacher",
+    slug: "luisa-rodriguez",
+    about:
+      "Music is a universal language that brings joy and harmony. Let's explore the magic of melodies and rhythms together.",
+    phone: "+1 (901) 234-5678",
+  },
+  {
+    id: 9,
+    imgSrc: "images/team_10.jpg",
+    name: "Emma Garcia",
+    designation: "Physical Education Teacher",
+    slug: "emma-garcia",
+    about:
+      "Physical fitness is essential for a healthy life. Let's stay active and have fun while developing strength and coordination.",
+    phone: "+1 (012) 345-6789",
+  },
+  {
+    id: 10,
+    imgSrc: "images/team_11.jpg",
+    name: "Sophie Anderson",
+    designation: "History Teacher",
+    slug: "sophie-anderson",
+    about:
+      "History is a fascinating journey through time. Join me in uncovering the stories and events that have shaped our world.",
+    phone: "+1 (123) 456-7890",
+  },
+  {
+    id: 11,
+    imgSrc: "images/team_12.jpg",
+    name: "Ella Turner",
+    designation: "Language Teacher",
+    slug: "ella-turner",
+    about:
+      "Language opens doors to new cultures and perspectives. Let's embark on a linguistic adventure to broaden our horizons.",
+    phone: "+1 (234) 567-8901",
+  },
+  {
+    id: 12,
+    imgSrc: "images/team_13.jpg",
+    name: "Ava Martinez",
+    designation: "Gym Instructor",
+    slug: "ava-martinez",
+    about:
+      "Fitness is not just a goal; it's a lifestyle. Together, we'll work towards achieving a healthy and active way of life.",
+    phone: "+1 (345) 678-9012",
+  },
+  {
+    id: 13,
+    imgSrc: "images/team_14.jpg",
+    name: "Alex Turner",
+    designation: "IT Specialist",
+    slug: "alex-turner",
+    about:
+      "In the digital age, technology is our ally. I'm here to ensure our school's tech infrastructure runs smoothly and securely.",
+    phone: "+1 (456) 789-0123",
+  },
 ];
 
 const tvData = [

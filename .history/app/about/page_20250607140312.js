@@ -164,17 +164,17 @@ export default function About() {
 
                
        
-                {/* <PopularServiceSection2/> */}
+                <PopularServiceSection2/>
                 {/* <CourseSection style="tf__popular_courses"/> */}
                 
                 {/* FAQ Section - Excellent for SEO, ensure questions/answers are comprehensive */}
-                {/* <FaqSection img="images/advert1.png"/> */}
+                <FaqSection img="images/advert1.png"/>
                 
                 {/* Activity Section - Good for showing dynamic content related to the show */}
-                {/* <ActivitySection2 style="tf__activities_slider_area pt_95 pb_100"/> */}
+                <ActivitySection2 style="tf__activities_slider_area pt_95 pb_100"/>
                 
                 {/* Blog Section - Crucial for fresh content and long-tail keyword targeting */}
-                {/* <BlogSection/> */}
+                <BlogSection/>
             </section>
         </Layout>
     )

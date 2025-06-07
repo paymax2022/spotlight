@@ -9,20 +9,20 @@ const AboutSection3 = ({ style }) => {
             <div className="tf__about_2_img">
               <div className="tf__about_small">
                 <img
-                  src="images/advert1.png"
+                  src="images/about_2_img_2.jpg"
                   alt="about us"
                   className="img-fluid 2-100"
                 />
               </div>
               <div className="tf__about_large">
                 <img
-                  src="images/advert1.png"
+                  src="images/about_2_img_1.jpg"
                   alt="about us"
                   className="img-fluid w-100"
                 />
               </div>
               <p>
-                <span>14+</span> Years of Experience
+                <span>24+</span> Years of Experience
               </p>
             </div>
           </div>
@@ -101,14 +101,15 @@ const AboutSection3 = ({ style }) => {
               </ul>
             </div>
           </div>
-          {/* <div className="col-12 mt_110 xs_mt_100 wow fadeInUp">
+          <div className="col-12 mt_110 xs_mt_100 wow fadeInUp">
             <div className="tf__about_us_counter d-flex flex-wrap align-items-center">
               <p>
-                <span className="counter">37,0000</span> Contestants  applying for our Talent Hunt Show !
+                <span className="counter">27,0000</span> More Students courde
+                youn do best !
               </p>
-              <a href="#">Enrol Now</a>
+              <a href="#">Export All</a>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

@@ -9,14 +9,14 @@ const AboutSection3 = ({ style }) => {
             <div className="tf__about_2_img">
               <div className="tf__about_small">
                 <img
-                  src="images/advert1.png"
+                  src="images/about_2_img_2.jpg"
                   alt="about us"
                   className="img-fluid 2-100"
                 />
               </div>
               <div className="tf__about_large">
                 <img
-                  src="images/advert1.png"
+                  src="images/about_2_img_1.jpg"
                   alt="about us"
                   className="img-fluid w-100"
                 />

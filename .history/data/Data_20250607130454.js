@@ -855,54 +855,54 @@ const courseDataArray = [
 
 const teamData = [
   {
-    id: 1,
+    id: 0,
     imgSrc: "images/channels.png",
-    // name: "Benjamin Carter",
-    // designation: "Teacher",
-    // slug: "benjamin-carter",
-    // about:
-    //   "I am a dedicated teacher with a passion for inspiring young minds. I believe in creating a positive learning environment to help students reach their full potential.",
-    // phone: "+1 (123) 456-7890",
+    name: "Benjamin Carter",
+    designation: "Teacher",
+    slug: "benjamin-carter",
+    about:
+      "I am a dedicated teacher with a passion for inspiring young minds. I believe in creating a positive learning environment to help students reach their full potential.",
+    phone: "+1 (123) 456-7890",
   },
   {
-    id: 0,
+    id: 1,
     imgSrc: "images/dstv_tvc.png",
-    // name: "Principal Media ",
-    // designation: "Principal",
-    // slug: "john-smith",
-    // about:
-    //   "As the principal of this school, I am committed to fostering academic excellence and a supportive community. Together, we shape the future of our students.",
-    // phone: "+1 (234) 567-8901",
+    name: "John Smith",
+    designation: "Principal",
+    slug: "john-smith",
+    about:
+      "As the principal of this school, I am committed to fostering academic excellence and a supportive community. Together, we shape the future of our students.",
+    phone: "+1 (234) 567-8901",
   },
   {
     id: 2,
-    imgSrc: "images/ait.png",
-    // name: "Emily Davis",
-    // designation: "Assistant Teacher",
-    // slug: "emily-davis",
-    // about:
-    //   "I assist students in their learning journey, ensuring they grasp fundamental concepts. Together, we explore the exciting world of knowledge.",
-    // phone: "+1 (345) 678-9012",
+    imgSrc: "images/team_3.jpg",
+    name: "Emily Davis",
+    designation: "Assistant Teacher",
+    slug: "emily-davis",
+    about:
+      "I assist students in their learning journey, ensuring they grasp fundamental concepts. Together, we explore the exciting world of knowledge.",
+    phone: "+1 (345) 678-9012",
   },
   {
     id: 3,
-    imgSrc: "images/mtvbase.png",
-    // name: "Michael Johnson",
-    // designation: "Counselor",
-    // slug: "michael-johnson",
-    // about:
-    //   "I provide guidance and support to students facing personal and academic challenges. My goal is to help them thrive emotionally and academically.",
-    // phone: "+1 (456) 789-0123",
+    imgSrc: "images/team_4.jpg",
+    name: "Michael Johnson",
+    designation: "Counselor",
+    slug: "michael-johnson",
+    about:
+      "I provide guidance and support to students facing personal and academic challenges. My goal is to help them thrive emotionally and academically.",
+    phone: "+1 (456) 789-0123",
   },
   {
     id: 4,
-    imgSrc: "images/nta-wap.png",
-    // name: "David Wilson",
-    // designation: "Librarian",
-    // slug: "david-wilson",
-    // about:
-    //   "As a librarian, I'm passionate about nurturing a love for reading and research. I'm here to assist students in their quest for knowledge.",
-    // phone: "+1 (567) 890-1234",
+    imgSrc: "images/team_5.jpg",
+    name: "David Wilson",
+    designation: "Librarian",
+    slug: "david-wilson",
+    about:
+      "As a librarian, I'm passionate about nurturing a love for reading and research. I'm here to assist students in their quest for knowledge.",
+    phone: "+1 (567) 890-1234",
   },
   {
     id: 5,
@@ -916,84 +916,84 @@ const teamData = [
   },
   {
     id: 6,
-    imgSrc: "images/wazobia.png",
-    // name: "Olivia Davis",
-    // designation: "Art Teacher",
-    // slug: "olivia-davis",
-    // about:
-    //   "I believe in the power of creativity to inspire and empower. Let's unleash our artistic potential and create beautiful masterpieces.",
-    // phone: "+1 (789) 012-3456",
+    imgSrc: "images/team_7.jpg",
+    name: "Olivia Davis",
+    designation: "Art Teacher",
+    slug: "olivia-davis",
+    about:
+      "I believe in the power of creativity to inspire and empower. Let's unleash our artistic potential and create beautiful masterpieces.",
+    phone: "+1 (789) 012-3456",
   },
   {
     id: 7,
-    imgSrc: "images/hiptv.png",
-    // name: "Mia Hernandez",
-    // designation: "Math Teacher",
-    // slug: "mia-hernandez",
-    // about:
-    //   "Mathematics is a fascinating puzzle waiting to be solved. I'm here to guide you through the world of numbers and equations.",
-    // phone: "+1 (890) 123-4567",
+    imgSrc: "images/team_8.jpg",
+    name: "Mia Hernandez",
+    designation: "Math Teacher",
+    slug: "mia-hernandez",
+    about:
+      "Mathematics is a fascinating puzzle waiting to be solved. I'm here to guide you through the world of numbers and equations.",
+    phone: "+1 (890) 123-4567",
   },
-  // {
-  //   id: 8,
-  //   imgSrc: "images/team_9.jpg",
-  //   name: "Luisa Rodriguez",
-  //   designation: "Music Teacher",
-  //   slug: "luisa-rodriguez",
-  //   about:
-  //     "Music is a universal language that brings joy and harmony. Let's explore the magic of melodies and rhythms together.",
-  //   phone: "+1 (901) 234-5678",
-  // },
-  // {
-  //   id: 9,
-  //   imgSrc: "images/team_10.jpg",
-  //   name: "Emma Garcia",
-  //   designation: "Physical Education Teacher",
-  //   slug: "emma-garcia",
-  //   about:
-  //     "Physical fitness is essential for a healthy life. Let's stay active and have fun while developing strength and coordination.",
-  //   phone: "+1 (012) 345-6789",
-  // },
-  // {
-  //   id: 10,
-  //   imgSrc: "images/team_11.jpg",
-  //   name: "Sophie Anderson",
-  //   designation: "History Teacher",
-  //   slug: "sophie-anderson",
-  //   about:
-  //     "History is a fascinating journey through time. Join me in uncovering the stories and events that have shaped our world.",
-  //   phone: "+1 (123) 456-7890",
-  // },
-  // {
-  //   id: 11,
-  //   imgSrc: "images/team_12.jpg",
-  //   name: "Ella Turner",
-  //   designation: "Language Teacher",
-  //   slug: "ella-turner",
-  //   about:
-  //     "Language opens doors to new cultures and perspectives. Let's embark on a linguistic adventure to broaden our horizons.",
-  //   phone: "+1 (234) 567-8901",
-  // },
-  // {
-  //   id: 12,
-  //   imgSrc: "images/team_13.jpg",
-  //   name: "Ava Martinez",
-  //   designation: "Gym Instructor",
-  //   slug: "ava-martinez",
-  //   about:
-  //     "Fitness is not just a goal; it's a lifestyle. Together, we'll work towards achieving a healthy and active way of life.",
-  //   phone: "+1 (345) 678-9012",
-  // },
-  // {
-  //   id: 13,
-  //   imgSrc: "images/team_14.jpg",
-  //   name: "Alex Turner",
-  //   designation: "IT Specialist",
-  //   slug: "alex-turner",
-  //   about:
-  //     "In the digital age, technology is our ally. I'm here to ensure our school's tech infrastructure runs smoothly and securely.",
-  //   phone: "+1 (456) 789-0123",
-  // },
+  {
+    id: 8,
+    imgSrc: "images/team_9.jpg",
+    name: "Luisa Rodriguez",
+    designation: "Music Teacher",
+    slug: "luisa-rodriguez",
+    about:
+      "Music is a universal language that brings joy and harmony. Let's explore the magic of melodies and rhythms together.",
+    phone: "+1 (901) 234-5678",
+  },
+  {
+    id: 9,
+    imgSrc: "images/team_10.jpg",
+    name: "Emma Garcia",
+    designation: "Physical Education Teacher",
+    slug: "emma-garcia",
+    about:
+      "Physical fitness is essential for a healthy life. Let's stay active and have fun while developing strength and coordination.",
+    phone: "+1 (012) 345-6789",
+  },
+  {
+    id: 10,
+    imgSrc: "images/team_11.jpg",
+    name: "Sophie Anderson",
+    designation: "History Teacher",
+    slug: "sophie-anderson",
+    about:
+      "History is a fascinating journey through time. Join me in uncovering the stories and events that have shaped our world.",
+    phone: "+1 (123) 456-7890",
+  },
+  {
+    id: 11,
+    imgSrc: "images/team_12.jpg",
+    name: "Ella Turner",
+    designation: "Language Teacher",
+    slug: "ella-turner",
+    about:
+      "Language opens doors to new cultures and perspectives. Let's embark on a linguistic adventure to broaden our horizons.",
+    phone: "+1 (234) 567-8901",
+  },
+  {
+    id: 12,
+    imgSrc: "images/team_13.jpg",
+    name: "Ava Martinez",
+    designation: "Gym Instructor",
+    slug: "ava-martinez",
+    about:
+      "Fitness is not just a goal; it's a lifestyle. Together, we'll work towards achieving a healthy and active way of life.",
+    phone: "+1 (345) 678-9012",
+  },
+  {
+    id: 13,
+    imgSrc: "images/team_14.jpg",
+    name: "Alex Turner",
+    designation: "IT Specialist",
+    slug: "alex-turner",
+    about:
+      "In the digital age, technology is our ally. I'm here to ensure our school's tech infrastructure runs smoothly and securely.",
+    phone: "+1 (456) 789-0123",
+  },
 ];
 
 const tvData = [

@@ -161,20 +161,18 @@ export default function About() {
                 <AboutSection3 style=''/>
                <TeamSection style="tf__team_3 pt_250 pb_100" />
                 {/* Review these components for relevance to a 'Talent Hunt' About page */}
-
-               
-       
-                {/* <PopularServiceSection2/> */}
-                {/* <CourseSection style="tf__popular_courses"/> */}
+                {/* If they are not directly about the show's core, consider moving them or renaming/repurposing them */}
+                <PopularServiceSection2/>
+                <CourseSection style="tf__popular_courses"/>
                 
                 {/* FAQ Section - Excellent for SEO, ensure questions/answers are comprehensive */}
-                {/* <FaqSection img="images/advert1.png"/> */}
+                <FaqSection img="images/advert1.png"/>
                 
                 {/* Activity Section - Good for showing dynamic content related to the show */}
-                {/* <ActivitySection2 style="tf__activities_slider_area pt_95 pb_100"/> */}
+                <ActivitySection2 style="tf__activities_slider_area pt_95 pb_100"/>
                 
                 {/* Blog Section - Crucial for fresh content and long-tail keyword targeting */}
-                {/* <BlogSection/> */}
+                <BlogSection/>
             </section>
         </Layout>
     )
