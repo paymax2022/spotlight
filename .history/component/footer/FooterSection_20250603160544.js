@@ -73,9 +73,7 @@ const FooterSection = () => {
                 <h3>Our Contacts</h3>
                 <p>Address: 1 Adebisi Oyeleye, Idado, lekki. Lagos</p>
                 <p>
-                  {/* <span> Phone: +234 815 949 1618</span> */}
-                   <span> Phone:  +234 813 366 2329</span>
-                 
+                  <span> Phone: +234 815 949 1618</span>
                   <span>Mobile: +234 806 343 7144</span>
                 </p>
                 <p>

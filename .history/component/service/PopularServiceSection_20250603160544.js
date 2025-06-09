@@ -18,7 +18,7 @@ const PopularServiceSection = () => {
               <span>
                 <i className="fa fa-books-medical"></i>
               </span>
-              <h3>Jennifer Nnoruga Production</h3>
+              <h3>Study Off Flexibly</h3>
               <p>
                 We can provide you with a reliable handyan in London. you need
                 to included the today.
