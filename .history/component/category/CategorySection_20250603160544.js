@@ -19,7 +19,7 @@ const CategorySection = () => {
                 <i className="fa fa-music"></i>
               </div>
               <div className="tf__single_category_text">
-                <h3>Singing</h3>
+                <h3>Music</h3>
                 <p>Do you have what it takes to captivate an audience? Grab the mic, own the stage!. APPLY NOW</p>
               </div>
             </div>
@@ -35,17 +35,6 @@ const CategorySection = () => {
               </div>
             </div>
           </div>
-          {/* <div className="col-xl-4 col-md-6 wow fadeInUp">
-            <div className="tf__single_category blue">
-              <div className="tf__single_category_icon">
-                <i className="fa fa-paperclip"></i>
-              </div>
-              <div className="tf__single_category_text">
-                <h3>Song Writer</h3>
-                <p>Calling all songwriters! Join us to create, collaborate, and showcase your talent to the world</p>
-              </div>
-            </div>
-          </div> */}
           <div className="col-xl-4 col-md-6 wow fadeInUp">
             <div className="tf__single_category green">
               <div className="tf__single_category_icon">
@@ -90,7 +79,7 @@ const CategorySection = () => {
               </div>
             </div>
           </div>
-          {/* <div className="col-xl-4 col-md-6 wow fadeInUp">
+          <div className="col-xl-4 col-md-6 wow fadeInUp">
         <div className="tf__single_category purple">
               <div className="tf__single_category_icon">
                 <i className="fa fa-shekel"></i>
@@ -100,8 +89,8 @@ const CategorySection = () => {
                 <p>Bold designs, runway magic, style that defines tomorrow.</p>
               </div>
             </div>
-          </div> */}
-          {/* <div className="col-xl-4 col-md-6 wow fadeInUp">
+          </div>
+          <div className="col-xl-4 col-md-6 wow fadeInUp">
             <div className="tf__single_category green">
               <div className="tf__single_category_icon">
                 <i className="fa fa-venus-double"></i>
@@ -122,7 +111,7 @@ const CategorySection = () => {
                 <p>Pitch your dream to the Gladiators. Secure funding now.</p>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

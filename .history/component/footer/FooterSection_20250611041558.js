@@ -27,27 +27,22 @@ const FooterSection = () => {
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fab fa-youtube"></i>
+                      <i className="fa brands-fa-youtube"></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fab fa-instagram"></i>
+                      <i className="fab fa-twitter"></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fab fa-tiktok"></i>
+                      <i className="fab fa-pinterest-p"></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fab fa-snapchat"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-google-plus-g"></i>
+                      <i className="fa fa-pinterest-p"></i>
                     </a>
                   </li>
                 </ul>

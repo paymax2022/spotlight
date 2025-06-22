@@ -42,11 +42,6 @@ const FooterSection = () => {
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fab fa-snapchat"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
                       <i className="fab fa-google-plus-g"></i>
                     </a>
                   </li>

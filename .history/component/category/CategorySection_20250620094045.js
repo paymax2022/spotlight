@@ -35,18 +35,18 @@ const CategorySection = () => {
               </div>
             </div>
           </div>
-          {/* <div className="col-xl-4 col-md-6 wow fadeInUp">
+          <div className="col-xl-4 col-md-6 wow fadeInUp">
             <div className="tf__single_category blue">
               <div className="tf__single_category_icon">
-                <i className="fa fa-paperclip"></i>
+                <i className="fa fa-deafness"></i>
               </div>
               <div className="tf__single_category_text">
-                <h3>Song Writer</h3>
-                <p>Calling all songwriters! Join us to create, collaborate, and showcase your talent to the world</p>
+                <h3>Song Writing</h3>
+                <p>Your rhythm, your moves, your story. Don't just dream of the spotlight – STEP INTO IT! "</p>
               </div>
             </div>
-          </div> */}
-          <div className="col-xl-4 col-md-6 wow fadeInUp">
+          </div>
+          {/* <div className="col-xl-4 col-md-6 wow fadeInUp">
             <div className="tf__single_category green">
               <div className="tf__single_category_icon">
                 <i className="fa fa-cart-plus"></i>
@@ -56,7 +56,7 @@ const CategorySection = () => {
                 <p>Taste the future. Showcase your culinary talent now.</p>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-xl-4 col-md-6 wow fadeInUp">
             <div className="tf__single_category gray">
               <div className="tf__single_category_icon">
