@@ -31,7 +31,7 @@ jobs:
           username: developers@spec-ng.com
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./out/
-          server-dir: /public_html/timeless-entertainment.com/
+          server-dir: /public_html/spotlightng.com/
           dangerous-clean-slate: true # This will clean the remote directory before uploading
           exclude: |
             **/.git*
