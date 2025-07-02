@@ -1,4 +1,5 @@
 'use client'
+import React from "react"
 import Layout from "@/components/layout/Layout"
 import data from "@/util/blog.json"
 import { useParams } from "next/navigation"
@@ -36,4 +37,9 @@ export default function BlogDetails() {
             </Layout>
         </>
     )
+}
+
+export async function generateStaticParams() {
+    // Return all possible blog post IDs as strings
+    return data.map((post: { id: number }) => ({ id: post.id.toString() }));
 }
