@@ -48,7 +48,7 @@ export default function Footer1() {
 												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Solutions</Link>
 												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Supporters</Link>
 												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">News & Events</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Campaign</Link>
+												<Link className="hover-effect text-white mb-2 fw-medium fs-6"href="#">Campaign</Link>
 												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Help Center</Link>
 											</div>
 										</div>
