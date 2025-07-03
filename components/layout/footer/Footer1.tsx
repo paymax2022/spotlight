@@ -9,7 +9,7 @@ export default function Footer1() {
 						<div className="container position-relative z-2">
 							<div className="row py-90">
 								<div className="col-lg-4 pe-10" data-aos="fade-zoom-in" data-aos-delay={100}>
-									<Link href="/"><img src="/assets/imgs/logo/logo-white.svg" alt="spotlight" /></Link>
+									{/* <Link href="/"><img src="/assets/imgs/logo/logo-white.svg" alt="spotlight" /></Link> */}
 									<p className="text-white fw-medium mt-3 mb-6 opacity-50">Igniting Creativity, Empowering Youth, Driving Economic Growth. Our Primary focus for music will be on musicians that have readily available original songs but needs a platform to connect...</p>
 									<div className="d-flex social-icons">
 										<Link href="https://www.facebook.com/" className=" text-white border border-end-0 border-light border-opacity-10 icon-shape icon-md">

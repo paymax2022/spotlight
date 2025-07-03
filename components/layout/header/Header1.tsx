@@ -13,7 +13,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 					<div className="container">
 						<Link className="navbar-brand d-flex main-logo align-items-center" href="/">
 							<img src="/assets/imgs/template/favicon.svg" alt="infinia" />
-							<span>Infinia</span>
+							<span>Spotlight</span>
 						</Link>
 						<Menu/>
 						<div className="d-flex align-items-center pe-5 pe-lg-0 me-5 me-lg-0">

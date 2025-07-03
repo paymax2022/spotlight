@@ -25,7 +25,7 @@ export default function Cta7() {
 							<div className="row align-items-center">
 								<div className="col-lg-6 text-lg-start text-center">
 									<div className="position-relative z-1 d-inline-block mb-lg-0 mb-8">
-										<img className="rounded-4 position-relative z-1" src="/assets/imgs/cta-7/img-1.png" alt="spotlight" />
+										<img className="rounded-4 position-relative z-1" src="/assets/imgs/cta-4/spotlight1.jpeg" alt="spotlight" />
 										<div className="alltuchtopdown position-absolute top-50 start-50 ms-md-10 mt-md-10 backdrop-filter bg-primary rounded-4 px-6 py-4 text-center z-1">
 											<span className="h2 count fw-black mb-0 lh-1 text-white text-nowrap">+<span className="odometer" /><CountUp end={2} enableScrollSpy={true} />k</span>
 											<p className="text-white text-nowrap border-bottom border-opacity-50 border-white pb-3 mb-3">Patrons/Partners</p>
@@ -74,15 +74,15 @@ export default function Cta7() {
 													</ul>
 												</div>
 												<div className="col-12 col-md-6 position-relative text-center">
-													<img className="rounded-3" src="/assets/imgs/cta-7/img-2.png" alt="" />
-													<Link href="#" className="position-md-absolute d-block translate-middle-md  w-50 start-0 ms-md-0 ms-10 mt-3 mt-md-0 p-3 rounded-3 bg-linear-1">
+													<img className="rounded-3" src="/assets/imgs/cta-4/Image_fx15.png" alt="" />
+													{/* <Link href="#" className="position-md-absolute d-block translate-middle-md  w-50 start-0 ms-md-0 ms-10 mt-3 mt-md-0 p-3 rounded-3 bg-linear-1">
 														<span className="rounded-circle">
-															<img className="rounded-circle border border-5 border-primary-light" src=" assets/imgs/cta-2/avatar-1.png" alt="spotlight" />
+															<img className="rounded-circle border border-5 border-primary-light" src=" assets/imgs/team-4/pat.jpg" alt="spotlight" />
 														</span>
 														<h6 className="mt-1">Patrick Egbuji <span className="text-500 fs-6"> CEO</span></h6>
-													</Link>
+													</Link> */}
 													<div className="position-md-absolute bottom-0 start-50 mt-3 mt-md-0 translate-middle-md-x">
-														<img src="/assets/imgs/cta-7/name-admin.svg" alt="" />
+														{/* <img src="/assets/imgs/cta-7/name-admin.svg" alt="" /> */}
 													</div>
 												</div>
 											</div>
@@ -96,7 +96,7 @@ export default function Cta7() {
 												<p>This structured process transforms raw passion into refined skill, preparing young creatives for long-term success in the music industry.</p>
 												</div>
 												<div className="col position-relative text-center">
-													<img src="/assets/imgs/cta-7/img-22.png" alt="" />
+													<img src="/assets/imgs/team-4/image_fx110.png" alt="" />
 												</div>
 											</div>
 										</div>
@@ -128,7 +128,7 @@ export default function Cta7() {
 													</ul> */}
 												</div>
 												<div className="col position-relative text-center mt-3">
-													<img className="rounded-3" src="/assets/imgs/cta-7/img-23.png" alt="" />
+													<img className="rounded-3" src="/assets/imgs/TEAM-1/IMG-1.JPG" alt="" />
 												</div>
 											</div>
 										</div>
