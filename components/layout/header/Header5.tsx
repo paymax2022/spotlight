@@ -25,7 +25,7 @@ export default function Header5({ scroll, isMobileMenu, handleMobileMenu, isSear
 										<path d="M5.62516 16.5418H14.3751C15.2956 16.5418 16.0418 15.7957 16.0418 14.8752V8.6252L10.0001 4.45853L3.9585 8.6252V14.8752C3.9585 15.7957 4.7047 16.5418 5.62516 16.5418Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 										<path d="M8.12476 13.6244C8.12476 12.7039 8.87098 11.9577 9.7914 11.9577H10.2081C11.1286 11.9577 11.8747 12.7039 11.8747 13.6244V16.5411H8.12476V13.6244Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 									</svg>
-									<span className="text-white ps-1 fs-7">Lekki, Lagos, Nigeria</span>
+									<span className="text-white ps-1 fs-7">Lekki, Lagos state, Nigeria</span>
 								</div>
 							</div>
 							<div className="d-flex d-none d-lg-flex align-items-center justify-content-center justify-content-lg-end">

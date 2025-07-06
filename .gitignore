@@ -53,4 +53,4 @@ test-results/
 playwright-report/
 
 # public assets (optional, remove if you want to keep these in git)
-public/assets/ 
+
