@@ -17,36 +17,36 @@ export default function PageContact1() {
 								<div className="pe-lg-8 me-lg-auto mb-5 mb-lg-0">
 									<h6 className="text-primary">Reach Out</h6>
 									<h3 className="ds-3">We look forward to hearing from you.</h3>
-									<p className="fs-5">Schedule a demo, inquire, or reach out here. For job opportunities at Iori Corporation, explore our careers page</p>
+									<p className="fs-5">Are you interested in Partnership, brand Promotion, strategic visibility and support for youth empowerment, or want to participate in our Reality TV show. Reach us right here</p>
 								</div>
 							</div>
 							<div className="col-lg-6">
 								<div className="rounded-4 border border-5 border-white zoom-img mb-5">
-									<img className="rounded-4 w-100" src="/assets/imgs/contact-4/img-1.png" alt="infinia" />
+									<img className="rounded-4 w-100" src="/assets/imgs/cta-4/family.png" alt="spotlight" />
 								</div>
 							</div>
 							<div className="col-lg-4">
 								<div className="rounded-4 border border-5 border-white zoom-img mb-5 mb-lg-0">
-									<img className="rounded-4 w-100" src="/assets/imgs/contact-4/img-2.png" alt="infinia" />
+									<img className="rounded-4 w-100" src="/assets/imgs/cta-4/winner1.jpg" alt="spotlight" />
 								</div>
 							</div>
 							<div className="col-lg-4">
-								<div className="h-100 bg-primary rounded-4 d-flex align-items-center justify-content-center border position-relative border-5 fix border-white py-5">
+								<div className="h-80 bg-primary rounded-4 d-flex align-items-center justify-content-center border position-relative border-5 fix border-white py-5">
 									<div className="position-relative z-1 fix">
 										<div className="d-flex justify-content-center">
-											<img src="/assets/imgs/hero-1/avatar-1.png" alt="infinia" />
-											<img className="avt-hero" src="/assets/imgs/hero-1/avatar-2.png" alt="infinia" />
-											<img className="avt-hero" src=" assets/imgs/hero-1/avatar-3.png" alt="infinia" />
+											<img src="/assets/imgs/hero-1/avatar-1.png" alt="spotlight" />
+											<img className="avt-hero" src="/assets/imgs/hero-1/avatar-2.png" alt="spotlight" />
+											<img className="avt-hero" src=" assets/imgs/hero-1/avatar-3.png" alt="spotlight" />
 										</div>
 										<h1 className="count fw-black text-white my-0">+<span className="odometer" /><CountUp end={500} enableScrollSpy={true} />k</h1>
 										<p className="fs-5 text-100-keep mb-0">Users Active / Month</p>
 									</div>
-									<img className="position-absolute top-50 start-50 translate-middle z-0" src="/assets/imgs/contact-4/img-bg-1.png" alt="infinia" />
+									<img className="position-absolute top-50 start-50 translate-middle z-0" src="/assets/imgs/contact-4/img-bg-1.png" alt="spotlight" />
 								</div>
 							</div>
 							<div className="col-lg-4">
 								<div className="rounded-4 border border-5 border-white zoom-img mt-5 mt-lg-0">
-									<img className="rounded-4 w-100" src="/assets/imgs/contact-4/img-3.png" alt="infinia" />
+									<img className="rounded-4 w-92" src="/assets/imgs/cta-4/music_production.jpg" alt="spotlight" />
 								</div>
 							</div>
 						</div>
@@ -60,14 +60,14 @@ export default function PageContact1() {
 								<div className="feature-item mb-5 mb-lg-0 pe-5 hover-up">
 									<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 										<div className="icon">
-											<img src="/assets/imgs/contact-5/icon-1.svg" alt="infinia" />
+											<img src="/assets/imgs/contact-5/icon-1.svg" alt="spotlight" />
 										</div>
 									</div>
-									<h6>Help  support</h6>
+									<h6>Brand Sponsorship</h6>
 									<p className="text-500">
-										Email <span className="text-900">support@alithemes.com</span> For <br />
-										help with a current product or <br />
-										service or refer to FAQs and developer tools
+										Email <span className="text-900">promotion@spotlightng.com</span> For 
+										Brand positioning, product activation and integration <br />
+										Talk to us for maximum audience reach
 									</p>
 								</div>
 							</div>
@@ -75,14 +75,14 @@ export default function PageContact1() {
 								<div className="feature-item mb-5 mb-lg-0 pe-5 hover-up">
 									<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 										<div className="icon">
-											<img src="/assets/imgs/contact-5/icon-2.svg" alt="infinia" />
+											<img src="/assets/imgs/contact-5/icon-2.svg" alt="spotlight" />
 										</div>
 									</div>
 									<h6>Call Us</h6>
 									<p className="text-500">
 										Call us to speak to a member of our team. <br />
-										(+01) 234 567 89 <br />
-										(+01) 456 789 21
+										(+234) 815 9491618 <br />
+										(+234) 9036522434
 									</p>
 								</div>
 							</div>
@@ -90,13 +90,13 @@ export default function PageContact1() {
 								<div className="feature-item mb-5 mb-lg-0 pe-5 hover-up">
 									<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 										<div className="icon">
-											<img src="/assets/imgs/contact-5/icon-3.svg" alt="infinia" />
+											<img src="/assets/imgs/contact-5/icon-3.svg" alt="spotlight" />
 										</div>
 									</div>
-									<h6>Business Department</h6>
+									<h6>Business Partnership</h6>
 									<p className="text-500">
-										Contact the sales department about cooperation projects <br />
-										(+01) 789 456 23
+										Contact the business development department about cooperation  <br />
+											(+234) 815 9491618
 									</p>
 								</div>
 							</div>
@@ -104,14 +104,14 @@ export default function PageContact1() {
 								<div className="feature-item mb-5 mb-lg-0 pe-5 hover-up">
 									<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 										<div className="icon">
-											<img src="/assets/imgs/contact-5/icon-4.svg" alt="infinia" />
+											<img src="/assets/imgs/contact-5/icon-4.svg" alt="spotlight" />
 										</div>
 									</div>
-									<h6>Global branch</h6>
+									<h6>Contest Participation</h6>
 									<p className="text-500">
-										Contact us to open our branches globally. <br />
-										(+01) 234 567 89 <br />
-										(+01) 456 789 23
+										Get discovered, Register Now <br />
+										(+234) 9036522434 <br />
+										Send Full Name, Age, Recent Quality Photo
 									</p>
 								</div>
 							</div>
@@ -123,18 +123,15 @@ export default function PageContact1() {
 					<div className="container position-relative z-1">
 						<div className="row">
 							<div className="col-lg-6">
-								<div className="d-flex align-items-center justify-content-center bg-primary-soft-keep border border-2 border-white-keep d-inline-flex rounded-pill px-4 py-2">
-									<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-									<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Contact Us</span>
-								</div>
-								<h5 className="ds-5 mt-3 mb-3 text-white">Thinking about a project? Get in touch with us.</h5>
+								
+								<h5 className="ds-5 mt-3 mb-3 text-white">Contact Us</h5>
 								<span className="fs-5 fw-medium text-white">Please let us know if you have a question, want to leave <br className="d-none d-lg-block" />
 									a comment, or would like further information about <br className="d-none d-lg-block" />
-									Infinia System</span>
+									spotlight System</span>
 								<div className="d-flex pt-6 pb-3 align-items-center">
 									<div className="bg-white-keep icon-flip position-relative icon-shape icon-xxl rounded-3">
 										<div className="icon">
-											<img src="/assets/imgs/contact-1/icon-1.svg" alt="infinia" />
+											<img src="/assets/imgs/contact-1/icon-1.svg" alt="spotlight" />
 										</div>
 									</div>
 									<div className="ps-5">
@@ -145,13 +142,13 @@ export default function PageContact1() {
 								<div className="d-flex pt-3 pb-3 align-items-center">
 									<div className="bg-white-keep icon-flip position-relative icon-shape icon-xxl rounded-3">
 										<div className="icon">
-											<img src="/assets/imgs/contact-1/icon-2.svg" alt="infinia" />
+											<img src="/assets/imgs/contact-1/icon-2.svg" alt="spotlight" />
 										</div>
 									</div>
 									<div className="ps-5">
-										<h6 className="text-white">Watch Product Videos</h6>
+										<h6 className="text-white">Watch Reality show Videos</h6>
 										<p className="text-white mb-0">
-											Watch our video tutorials for visual walkthroughs <br />
+											Watch our video for visual walkthroughs <br />
 											on how to use our features.
 										</p>
 									</div>
@@ -159,7 +156,7 @@ export default function PageContact1() {
 								<div className="d-flex pt-3 pb-3 align-items-center">
 									<div className="bg-white-keep icon-flip position-relative icon-shape icon-xxl rounded-3">
 										<div className="icon">
-											<img src="/assets/imgs/contact-1/icon-3.svg" alt="infinia" />
+											<img src="/assets/imgs/contact-1/icon-3.svg" alt="spotlight" />
 										</div>
 									</div>
 									<div className="ps-5">
@@ -249,9 +246,7 @@ export default function PageContact1() {
 						</div>
 					</div>
 				</section>
-				<div className="contact-map w-100">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.332792000835!2d144.96011341744386!3d-37.805673299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sbd!4v1685027435635!5m2!1sen!2sbd" allowFullScreen loading="lazy" />
-				</div>
+				
 
 			</Layout>
 		</>

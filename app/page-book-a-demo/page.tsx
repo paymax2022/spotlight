@@ -253,7 +253,7 @@ export default function PageBookADemo() {
 														</clipPath>
 													</defs>
 												</svg>
-												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">0811 Erdman Prairie, Joaville CA</Link>
+												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">Lekki, Lagos, Nigeria</Link>
 											</div>
 										</div>
 									</div>

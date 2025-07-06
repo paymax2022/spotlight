@@ -495,7 +495,7 @@ export default function SectionContact() {
 								<div className="pe-lg-8 me-lg-auto mb-5 mb-lg-0">
 									<h6 className="text-primary">Reach Out</h6>
 									<h3 className="ds-3">We look forward to hearing from you.</h3>
-									<p className="fs-5">Schedule a demo, inquire, or reach out here. For job opportunities at Iori Corporation, explore our careers page</p>
+									<p className="fs-5">Are you interested in Partnership, brand Promotion, strategic visibility and support for youth empowerment, or want to participate in our Reality TV show. Reach us right here</p>
 								</div>
 							</div>
 							<div className="col-lg-6">
@@ -543,9 +543,9 @@ export default function SectionContact() {
 									</div>
 									<h6>Help  support</h6>
 									<p className="text-500">
-										Email <span className="text-900">support@alithemes.com</span> For <br />
-										help with a current product or <br />
-										service or refer to FAQs and developer tools
+										Email <span className="text-900">promotion@spotlightng.com</span> For <br />
+										Brand posotioning, product activation and integration <br />
+										Talk to us for maximum audience reach
 									</p>
 								</div>
 							</div>
@@ -809,7 +809,7 @@ export default function SectionContact() {
 														</clipPath>
 													</defs>
 												</svg>
-												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">0811 Erdman Prairie, Joaville CA</Link>
+												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">Lekki, Lagos, Nigeria</Link>
 											</div>
 										</div>
 									</div>

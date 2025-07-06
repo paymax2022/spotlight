@@ -32,7 +32,7 @@ export default function PageServicesDetails1() {
 							</div>
 						</div>
 					</div>
-					<img className="position-absolute bottom-0 start-0 end-0 top-0 z-0" src="/assets/imgs/page-header/bg-line.png" alt="infinia" />
+					<img className="position-absolute bottom-0 start-0 end-0 top-0 z-0" src="/assets/imgs/page-header/bg-line.png" alt="spotlight" />
 					<div className="bouncing-blobs-container">
 						<div className="bouncing-blobs-glass" />
 						<div className="bouncing-blobs">
@@ -44,7 +44,7 @@ export default function PageServicesDetails1() {
 				{/* Other sections */}
 				<section className="section-services-details pt-80">
 					<div className="container">
-						<img className="rounded-3" src="/assets/imgs/services-details/img-1.png" alt="infinia" />
+						<img className="rounded-3" src="/assets/imgs/services-details/img-1.png" alt="spotlight" />
 						<div className="row">
 							<div className="col-lg-4 col-md-3" />
 						</div>
@@ -89,19 +89,19 @@ export default function PageServicesDetails1() {
 								<div className="bg-neutral-100 px-5 pb-5 mt-5 rounded-4 border">
 									<h6 className="mb-4 mt-3">Service Brochure</h6>
 									<Link href="#" className="bg-white rounded-3 p-3 border d-flex align-items-center mb-3">
-										<img src="/assets/imgs/services-details/icon-1.svg" alt="infinia" />
+										<img src="/assets/imgs/services-details/icon-1.svg" alt="spotlight" />
 										<p className="text-900 fs-7 mb-0 ms-3">PDF. Download (25 Mb)</p>
 									</Link>
 									<Link href="#" className="bg-white rounded-3 p-3 border d-flex align-items-center mb-3">
-										<img src="/assets/imgs/services-details/icon-2.svg" alt="infinia" />
+										<img src="/assets/imgs/services-details/icon-2.svg" alt="spotlight" />
 										<p className="text-900 fs-7 mb-0 ms-3">DOC. Download (28 Mb)</p>
 									</Link>
 									<Link href="#" className="bg-white rounded-3 p-3 border d-flex align-items-center mb-3">
-										<img src="/assets/imgs/services-details/icon-3.svg" alt="infinia" />
+										<img src="/assets/imgs/services-details/icon-3.svg" alt="spotlight" />
 										<p className="text-900 fs-7 mb-0 ms-3">Open on Google Driver</p>
 									</Link>
 									<Link href="#" className="bg-white rounded-3 p-3 border d-flex align-items-center">
-										<img src="/assets/imgs/services-details/icon-4.svg" alt="infinia" />
+										<img src="/assets/imgs/services-details/icon-4.svg" alt="spotlight" />
 										<p className="text-900 fs-7 mb-0 ms-3">Open on Google Driver</p>
 									</Link>
 								</div>
@@ -113,7 +113,7 @@ export default function PageServicesDetails1() {
 											in Financial Services
 										</h4>
 										<Link href="/tel:+12345678900" className="d-flex align-items-center mt-8 mb-9">
-											<img src="/assets/imgs/services-details/icon-contact.svg" alt="infinia" />
+											<img src="/assets/imgs/services-details/icon-contact.svg" alt="spotlight" />
 											<div className="ms-3">
 												<span className="text-white mb-0 fs-4">Contact Us</span>
 												<h5 className="text-white d-block">+01 (24) 568 900</h5>
@@ -126,10 +126,10 @@ export default function PageServicesDetails1() {
 											</svg>
 										</Link>
 									</div>
-									<img className="position-absolute top-0 end-0" src="/assets/imgs/services-details/bg-line-3.png" alt="infinia" />
+									<img className="position-absolute top-0 end-0" src="/assets/imgs/services-details/bg-line-3.png" alt="spotlight" />
 								</div>
 								<div className="bg-neutral-100 p-5 mt-5 rounded-4 border">
-									<h6 className="mb-4">Get A Quote</h6>
+									<h6 className="mb-4">Contact Us</h6>
 									<div className="row mt-5">
 										<div className="col-12">
 											<div className="input-group d-flex align-items-center">
@@ -187,47 +187,47 @@ export default function PageServicesDetails1() {
 							</div>
 							<div className="col-lg-8 ps-lg-4 mt-lg-0 mt-8 content">
 								<h4 className="mb-3">Innovative Business Services</h4>
-								<p className="mb-0">In today's fast-paced and competitive business environment, staying ahead requires more than just traditional methods. At Infinia, we understand the necessity of innovation in driving business growth and success. <span className="text-900 fw-bold">Our innovative business</span> services are designed to help you navigate the complexities of the modern marketplace, leveraging cutting-edge technology and forward-thinking strategies to transform your operations and achieve your goals. We implement intelligent automation tools tailored to your specific needs.</p>
+								<p className="mb-0">In today's fast-paced and competitive business environment, staying ahead requires more than just traditional methods. At spotlight, we understand the necessity of innovation in driving business growth and success. <span className="text-900 fw-bold">Our innovative business</span> services are designed to help you navigate the complexities of the modern marketplace, leveraging cutting-edge technology and forward-thinking strategies to transform your operations and achieve your goals. We implement intelligent automation tools tailored to your specific needs.</p>
 								<div className="d-md-flex align-items-center mt-3 mb-3">
 									<ul className="list-unstyled phase-items mb-0">
 										<li className="d-flex align-items-center mt-3">
-											<img src="/assets/imgs/services-details/check.svg" alt="infinia" />
+											<img src="/assets/imgs/services-details/check.svg" alt="spotlight" />
 											<span className="ms-2 text-900 fw-medium fs-6">Customer Journey Mapping</span>
 										</li>
 										<li className="d-flex align-items-center mt-3">
-											<img src="/assets/imgs/services-details/check.svg" alt="infinia" />
+											<img src="/assets/imgs/services-details/check.svg" alt="spotlight" />
 											<span className="ms-2 text-900 fw-medium fs-6">Customer Feedback Systems</span>
 										</li>
 									</ul>
 									<ul className="list-unstyled phase-items ms-md-6 mb-0">
 										<li className="d-flex align-items-center mt-3">
-											<img src="/assets/imgs/services-details/check.svg" alt="infinia" />
+											<img src="/assets/imgs/services-details/check.svg" alt="spotlight" />
 											<span className="ms-2 text-900 fw-medium fs-6">Sustainable Business Practices</span>
 										</li>
 										<li className="d-flex align-items-center mt-3">
-											<img src="/assets/imgs/services-details/check.svg" alt="infinia" />
+											<img src="/assets/imgs/services-details/check.svg" alt="spotlight" />
 											<span className="ms-2 text-900 fw-medium fs-6">Corporate Social Responsibility</span>
 										</li>
 									</ul>
 									<ul className="list-unstyled phase-items ms-md-6 mb-0">
 										<li className="d-flex align-items-center mt-3">
-											<img src="/assets/imgs/services-details/check.svg" alt="infinia" />
+											<img src="/assets/imgs/services-details/check.svg" alt="spotlight" />
 											<span className="ms-2 text-900 fw-medium fs-6">Ideation and Concept</span>
 										</li>
 										<li className="d-flex align-items-center mt-3">
-											<img src="/assets/imgs/services-details/check.svg" alt="infinia" />
+											<img src="/assets/imgs/services-details/check.svg" alt="spotlight" />
 											<span className="ms-2 text-900 fw-medium fs-6">Intellectual Property</span>
 										</li>
 									</ul>
 								</div>
 								<h5 className="pt-4 border-top mb-3 mt-5">Digital Transformation</h5>
-								<p className="mb-4">At Infinia, we are committed to delivering innovative solutions that drive real results. Our team of experts combines industry knowledge with technological expertise to provide services that are both practical and visionary. We work closely with you to understand your unique challenges and tailor our services to meet your specific needs.</p>
+								<p className="mb-4">At spotlight, we are committed to delivering innovative solutions that drive real results. Our team of experts combines industry knowledge with technological expertise to provide services that are both practical and visionary. We work closely with you to understand your unique challenges and tailor our services to meet your specific needs.</p>
 								<div className="row">
 									<div className="col-lg-7">
 										<div className="d-flex">
 											<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
 												<div className="icon">
-													<img src="/assets/imgs/services-details/icon-5.svg" alt="infinia" />
+													<img src="/assets/imgs/services-details/icon-5.svg" alt="spotlight" />
 												</div>
 											</div>
 											<div className="ps-5">
@@ -242,7 +242,7 @@ export default function PageServicesDetails1() {
 										<div className="d-flex pt-3">
 											<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
 												<div className="icon">
-													<img src="/assets/imgs/services-details/icon-6.svg" alt="infinia" />
+													<img src="/assets/imgs/services-details/icon-6.svg" alt="spotlight" />
 												</div>
 											</div>
 											<div className="ps-5">
@@ -257,7 +257,7 @@ export default function PageServicesDetails1() {
 										<div className="d-flex pt-3">
 											<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
 												<div className="icon">
-													<img src="/assets/imgs/services-details/icon-7.svg" alt="infinia" />
+													<img src="/assets/imgs/services-details/icon-7.svg" alt="spotlight" />
 												</div>
 											</div>
 											<div className="ps-5">
@@ -271,11 +271,11 @@ export default function PageServicesDetails1() {
 										</div>
 									</div>
 									<div className="col-lg-5 mt-lg-0 mt-5">
-										<img className="rounded-3" src="/assets/imgs/services-details/img-2.png" alt="infinia" />
+										<img className="rounded-3" src="/assets/imgs/services-details/img-2.png" alt="spotlight" />
 									</div>
 								</div>
 								<h4 className="mt-3 pt-3 border-top mb-3">Sustainability and CSR</h4>
-								<p className="mb-3">Embrace the future of business with Infinia's innovative services. Let us help you transform your organization and achieve unprecedented success. Contact us today to learn more about how we can support your journey towards innovation and excellence.</p>
+								<p className="mb-3">Embrace the future of business with spotlight's innovative services. Let us help you transform your organization and achieve unprecedented success. Contact us today to learn more about how we can support your journey towards innovation and excellence.</p>
 								<p className="fw-bold text-900">Ideation and Concept Development: <span className="fw-medium text-600">Foster a culture of innovation within your organization. We facilitate ideation sessions and help you develop viable concepts that can be turned into profitable ventures.</span></p>
 								<p className="fw-bold text-900">RD Support: <span className="fw-medium text-600">Accelerate your research and development efforts with our expert support. We provide the resources and expertise needed to bring your innovative ideas to life.</span></p>
 								<p className="fw-bold text-900">Intellectual Property Management: <span className="fw-medium text-600">Protect your innovations with our comprehensive IP management services. From patent filing to trademark registration, we safeguard your intellectual assets.</span></p>
@@ -376,7 +376,7 @@ export default function PageServicesDetails1() {
 								<span className="fw-bold">Your <br />
 									Business</span>
 								with
-								<span className="fw-bold">Infinia's <br />
+								<span className="fw-bold">spotlight's <br />
 									Innovative</span>
 								Services
 							</h5>
@@ -387,23 +387,23 @@ export default function PageServicesDetails1() {
 								<div className="d-flex flex-md-row flex-column align-items-center">
 									<div className="me-2 mt-md-0 mt-3">
 										<div className="d-flex">
-											<img src="/assets/imgs/hero-1/avatar-1.png" alt="infinia" />
-											<img className="avt-hero" src="/assets/imgs/hero-1/avatar-2.png" alt="infinia" />
-											<img className="avt-hero" src=" assets/imgs/hero-1/avatar-3.png" alt="infinia" />
+											<img src="/assets/imgs/hero-1/avatar-1.png" alt="spotlight" />
+											<img className="avt-hero" src="/assets/imgs/hero-1/avatar-2.png" alt="spotlight" />
+											<img className="avt-hero" src=" assets/imgs/hero-1/avatar-3.png" alt="spotlight" />
 										</div>
 										<span className="fs-6 fw-bold text-900">4.8/5 <span className="text-white fw-medium">(26k Reviews)</span></span>
 									</div>
 									<div className="ms-3 mt-md-0 mt-3">
-										<img src="/assets/imgs/services-details/brand-1.svg" alt="infinia" />
+										<img src="/assets/imgs/services-details/brand-1.svg" alt="spotlight" />
 									</div>
 									<div className="ms-3 mt-md-0 mt-3">
-										<img src="/assets/imgs/services-details/brand-2.svg" alt="infinia" />
+										<img src="/assets/imgs/services-details/brand-2.svg" alt="spotlight" />
 									</div>
 								</div>
 							</div>
 						</div>
-						<img className="position-absolute top-0 end-0" src="/assets/imgs/services-details/bg-line-1.png" alt="infinia" />
-						<img className="position-absolute bottom-0 start-0" src="/assets/imgs/services-details/bg-line-2.png" alt="infinia" />
+						<img className="position-absolute top-0 end-0" src="/assets/imgs/services-details/bg-line-1.png" alt="spotlight" />
+						<img className="position-absolute bottom-0 start-0" src="/assets/imgs/services-details/bg-line-2.png" alt="spotlight" />
 					</div>
 				</div>
 				{/*Testimonial 2*/}
@@ -414,7 +414,7 @@ export default function PageServicesDetails1() {
 								<div className="text-center mb-lg-0 mb-5">
 									<h4 className="ds-4 my-3">
 										+100k users <span className="fw-regular">have loved </span><br />
-										Infinia Conference <span className="fw-regular">System</span>
+										spotlight Conference <span className="fw-regular">System</span>
 									</h4>
 									<p className="fs-5 mb-0">
 										Provide your team with top-tier group mentoring <br className="d-none d-lg-block" />
@@ -428,11 +428,11 @@ export default function PageServicesDetails1() {
 								<div className="bg-neutral-100 p-5 rounded-3" data-aos="fade-zoom-in" data-aos-delay={0}>
 									<p className="text-900">The team's dedication and expertise have transformed our business. <span className="fw-bold">Their innovative solutions and outstanding support</span> have significantly boosted our productivity and client satisfaction. Allowing us to streamline our processes and focus on what matters most.</p>
 									<div className="d-flex align-items-center mt-5">
-										<img className="avatar-lg" src="/assets/imgs/testimonial-1/avatar-1.png" alt="infinia" />
+										<img className="avatar-lg" src="/assets/imgs/testimonial-1/avatar-1.png" alt="spotlight" />
 										<div className="d-flex flex-column">
 											<h6 className="ms-3 fs-6 mb-0">Kathryn Murphy</h6>
 											<div className="flag ms-3">
-												<img src="/assets/imgs/testimonial-1/flag-1.png" alt="infinia" />
+												<img src="/assets/imgs/testimonial-1/flag-1.png" alt="spotlight" />
 												<span className="fs-8">CEO of Tech Innovators Inc</span>
 											</div>
 										</div>
@@ -441,11 +441,11 @@ export default function PageServicesDetails1() {
 								<div className="bg-neutral-100 p-5 mt-5 rounded-3" data-aos="fade-zoom-in" data-aos-delay={100}>
 									<p className="text-900">Our experience with this team has surpassed our expectations on every front. <span className="fw-bold">The comprehensive suite of over 1200 UI blocks has enabled us to craft highly functional</span> and aesthetically pleasing user interfaces that resonate with our target audience. Equally impressive is the premium support team's proactive approach.</p>
 									<div className="d-flex align-items-center mt-5">
-										<img className="avatar-lg" src="/assets/imgs/testimonial-1/avatar-4.png" alt="infinia" />
+										<img className="avatar-lg" src="/assets/imgs/testimonial-1/avatar-4.png" alt="spotlight" />
 										<div className="d-flex flex-column">
 											<h6 className="ms-3 fs-6 mb-0">Emily Adams</h6>
 											<div className="flag ms-3">
-												<img src="/assets/imgs/testimonial-1/flag-4.png" alt="infinia" />
+												<img src="/assets/imgs/testimonial-1/flag-4.png" alt="spotlight" />
 												<span className="fs-8">Software Engineer</span>
 											</div>
 										</div>
@@ -456,11 +456,11 @@ export default function PageServicesDetails1() {
 								<div className="bg-neutral-100 p-5 mt-5 mt-lg-0 rounded-3" data-aos="fade-zoom-in" data-aos-delay={200}>
 									<p className="text-900">The individual email account feature has improved internal communication clarity and professionalism. Moreover, the premium support team's responsiveness and expertise have ensured minimal <span className="fw-bold">disruptions and quick resolutions</span> to any technical challenges we've faced. I highly recommend their services for any enterprise seeking robust SaaS solutions,</p>
 									<div className="d-flex align-items-center mt-5">
-										<img className="avatar-lg" src="/assets/imgs/testimonial-1/avatar-3.png" alt="infinia" />
+										<img className="avatar-lg" src="/assets/imgs/testimonial-1/avatar-3.png" alt="spotlight" />
 										<div className="d-flex flex-column">
 											<h6 className="ms-3 fs-6 mb-0">Sarah Thompson</h6>
 											<div className="flag ms-3">
-												<img src="/assets/imgs/testimonial-1/flag-3.png" alt="infinia" />
+												<img src="/assets/imgs/testimonial-1/flag-3.png" alt="spotlight" />
 												<span className="fs-8">Marketing Director</span>
 											</div>
 										</div>
@@ -469,11 +469,11 @@ export default function PageServicesDetails1() {
 								<div className="bg-neutral-100 p-5 mt-5 rounded-3" data-aos="fade-zoom-in" data-aos-delay={0}>
 									<p className="text-900">The individual email account feature has improved internal communication clarity and professionalism. Moreover, the premium support team's responsiveness and expertise have ensured minimal <span className="fw-bold">disruptions and quick resolutions</span> to any technical challenges we've faced. I highly recommend their services for any enterprise seeking robust SaaS solutions,</p>
 									<div className="d-flex align-items-center mt-5">
-										<img className="avatar-lg" src="/assets/imgs/testimonial-1/avatar-3.png" alt="infinia" />
+										<img className="avatar-lg" src="/assets/imgs/testimonial-1/avatar-3.png" alt="spotlight" />
 										<div className="d-flex flex-column">
 											<h6 className="ms-3 fs-6 mb-0">Sarah Thompson</h6>
 											<div className="flag ms-3">
-												<img src="/assets/imgs/testimonial-1/flag-3.png" alt="infinia" />
+												<img src="/assets/imgs/testimonial-1/flag-3.png" alt="spotlight" />
 												<span className="fs-8">Marketing Director</span>
 											</div>
 										</div>
@@ -484,11 +484,11 @@ export default function PageServicesDetails1() {
 								<div className="bg-neutral-100 p-5 mt-5 mt-lg-0 rounded-3" data-aos="fade-zoom-in" data-aos-delay={100}>
 									<p className="text-900">Our collaboration with the team has been instrumental in optimizing our project management processes. <span className="fw-bold">The extensive selection of over 1200 UI blocks has allowed us to customize our project interfaces to meet specific client needs effectively.</span> The generous 10 GB of cloud storage has provided ample space for storing project files securely, enabling seamless collaboration across distributed teams.</p>
 									<div className="d-flex align-items-center mt-5">
-										<img className="avatar-lg" src="/assets/imgs/testimonial-1/avatar-2.png" alt="infinia" />
+										<img className="avatar-lg" src="/assets/imgs/testimonial-1/avatar-2.png" alt="spotlight" />
 										<div className="d-flex flex-column">
 											<h6 className="ms-3 fs-6 mb-0">Emily Davis</h6>
 											<div className="flag ms-3">
-												<img src="/assets/imgs/testimonial-1/flag-2.png" alt="infinia" />
+												<img src="/assets/imgs/testimonial-1/flag-2.png" alt="spotlight" />
 												<span className="fs-8">Software Engineer</span>
 											</div>
 										</div>
@@ -497,11 +497,11 @@ export default function PageServicesDetails1() {
 								<div className="bg-neutral-100 p-5 mt-5 rounded-3" data-aos="fade-zoom-in" data-aos-delay={200}>
 									<p className="text-900">The team's dedication and expertise have transformed our business. <span className="fw-bold">Their innovative solutions and outstanding support</span> have significantly boosted our productivity and client satisfaction. Allowing us to streamline our processes and focus on what matters most.</p>
 									<div className="d-flex align-items-center mt-5">
-										<img className="avatar-lg" src="/assets/imgs/testimonial-1/avatar-1.png" alt="infinia" />
+										<img className="avatar-lg" src="/assets/imgs/testimonial-1/avatar-1.png" alt="spotlight" />
 										<div className="d-flex flex-column">
 											<h6 className="ms-3 fs-6 mb-0">Kathryn Murphy</h6>
 											<div className="flag ms-3">
-												<img src="/assets/imgs/testimonial-1/flag-1.png" alt="infinia" />
+												<img src="/assets/imgs/testimonial-1/flag-1.png" alt="spotlight" />
 												<span className="fs-8">CEO of Tech Innovators Inc</span>
 											</div>
 										</div>

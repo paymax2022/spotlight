@@ -937,8 +937,8 @@ export default function PageAbout3() {
                     <div className="row align-items-center rounded-3 bg-white p-5">
                       <div className="col-lg-5 mb-lg-0 mb-5">
                         <img
-                          className="rounded-3"
-                          src="/assets/imgs/service-4/img-3.png"
+                          className="rounded-3 w=100"
+                          src="/assets/imgs/cta-4/singer.png"
                           alt=""
                         />
                       </div>
@@ -1076,8 +1076,8 @@ export default function PageAbout3() {
                     <div className="row align-items-center rounded-3 bg-white p-5">
                       <div className="col-lg-5 mb-lg-0 mb-5">
                         <img
-                          className="rounded-3"
-                          src="/assets/imgs/service-4/img-5.png"
+                          className="rounded-3  w-100"
+                          src="/assets/imgs/cta-4/5.png"
                           alt=""
                         />
                       </div>
@@ -1107,7 +1107,7 @@ export default function PageAbout3() {
                               <h6>Skills & Exposure</h6>
                               <p>
                                 We equip youth with practical skills and access
-                                to real music career pathways.
+                                to real career pathways.
                               </p>
                             </div>
                           </div>
@@ -1145,7 +1145,7 @@ export default function PageAbout3() {
                       <div className="col-lg-5 mb-lg-0 mb-5">
                         <img
                           className="rounded-3"
-                          src="/assets/imgs/service-4/img-6.png"
+                          src="/assets/imgs/cta-4/faze.png"
                           alt=""
                         />
                       </div>
@@ -1793,7 +1793,7 @@ export default function PageAbout3() {
               {/* prettier-ignore */}
               <div className="col-lg-4 text-start">
 							<div className="card border-0 rounded-3 mt-8 position-relative d-inline-flex" data-aos="fade-zoom-in" data-aos-delay={100}>
-								<img className="rounded-3" src="/assets/imgs/blog-1/card-img-1.png" alt="spotlight" />
+								<img className="rounded-3" src="/assets/imgs/cta-4/Image_fx22.jpg" alt="spotlight" />
 								<div className="card-body p-0 bg-white">
 									<Link href="#" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
 										<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">Shout Out</span>
@@ -1812,7 +1812,7 @@ export default function PageAbout3() {
                 >
                   <img
                     className="rounded-3"
-                    src="/assets/imgs/blog-1/card-img-2.png"
+                    src="/assets/imgs/cta-4/singing2.jpg"
                     alt="spotlight"
                   />
                   <div className="card-body p-0 bg-white">
@@ -1847,7 +1847,7 @@ export default function PageAbout3() {
                 >
                   <img
                     className="rounded-3"
-                    src="/assets/imgs/blog-1/card-img-3.png"
+                    src="/assets/imgs/cta-4/singing3.jpg"
                     alt="spotlight"
                   />
                   <div className="card-body p-0 bg-white">

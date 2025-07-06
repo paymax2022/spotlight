@@ -12,8 +12,8 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSear
 				<nav className={`navbar navbar-expand-lg navbar-light w-100 z-999 header-4 ${scroll ? 'navbar-stick' : ''}`} style={{ position: `${scroll? "fixed" : "relative"}`, top: `${scroll? "0" : "auto"}`, bottom: `${scroll? "auto" : "0"}` }}>
 					<div className="container">
 						<Link className="navbar-brand d-flex main-logo align-items-center" href="/">
-							<img src="assets/imgs/template/favicon.svg" alt="infinia" />
-							<span>Infinia</span>
+							<img src="assets/imgs/template/favicon.svg" alt="spotlight" />
+							<span>spotlight</span>
 						</Link>
 						<Menu />
 						<div className="d-flex align-items-center pe-5 pe-lg-0 me-5 me-lg-0">
@@ -24,7 +24,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSear
 							</a>
 							<ThemeSwitch />
 							<a  className="menu-tigger bg-primary icon-shape icon-md rounded-2 d-none d-md-flex cursor-pointer" onClick={handleOffCanvas}>
-								<img src="assets/imgs/logo/icon-menu.svg" alt="infinia" />
+								<img src="assets/imgs/logo/icon-menu.svg" alt="spotlight" />
 							</a>
 							<div className="burger-icon burger-icon-white border rounded-3" onClick={handleMobileMenu}>
 								<span className="burger-icon-top" />

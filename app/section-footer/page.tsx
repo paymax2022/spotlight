@@ -135,7 +135,7 @@ export default function SectionFooter() {
 											<path d="M14.75 6.75L19.25 4.75V17.25L14.75 19.25V6.75Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 											<path d="M14.75 6.75L9.25 4.75V17.25L14.75 19.25V6.75Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 										</svg>
-										<p className="text-white mb-0 ms-2">0811 Erdman Prairie, Joaville CA</p>
+										<p className="text-white mb-0 ms-2">Lekki, Lagos, Nigeria</p>
 									</Link>
 									<Link href="#" className="d-flex">
 										<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
