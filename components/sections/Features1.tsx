@@ -22,14 +22,14 @@ export default function Features1() {
 						</div>
 						<div className="col-lg-8">
 							<div className="d-flex flex-md-row flex-column align-items-center position-relative ps-lg-8 pt-lg-0 pt-10">
-								<div className="pe-md-3 pb-3 pb-md-0 position-relative z-1" data-aos="fade-zoom-in" data-aos-delay={100}>
+								{/* <div className="pe-md-3 pb-3 pb-md-0 position-relative z-1" data-aos="fade-zoom-in" data-aos-delay={100}>
 									<img className="rounded-3 border border-3 border-white" src="/assets/imgs/cta-4/pitch.jpg" alt="Spotlight" />
 								</div>
 								<div className="pe-md-3 pb-3 pb-md-0 position-relative z-1" data-aos="fade-zoom-in" data-aos-delay={200}>
 									<img className="rounded-3 border border-3 border-white" src="/assets/imgs/cta-4/movie.png" alt="Spotlight" />
-								</div>
+								</div> */}
 								<div className="pe-md-3 pb-3 pb-md-0 position-relative z-1" data-aos="fade-zoom-in" data-aos-delay={300}>
-									<img className="rounded-3 border border-3 border-white" src="/assets/imgs/cta-4/image_fx110.png" alt="Spotlight" />
+									<img className="rounded-3 border border-3 border-white" src="/assets/imgs/cta-4/winner3.jpg" alt="Spotlight" />
 									<Link href="#" onClick={() => setOpen(true)} scroll={false} className="d-inline-flex align-items-center rounded-4 text-nowrap backdrop-filter px-3 py-2 popup-video hover-up position-absolute bottom-0 mb-4 start-50 translate-middle-x">
 										{/* <span className="backdrop-filter me-2 icon-shape icon-md rounded-circle">
 											<svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">

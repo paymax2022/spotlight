@@ -18,7 +18,7 @@ export default function Hero1() {
 									</svg>
 								</Link>
 								<h3 className="ds-3 mt-4 mb-5" data-aos="fade-zoom-in" data-aos-delay={0}>Igniting Dreams, Empowering Talent, Changing Lives.</h3>
-								<p className="pe-10 mb-5" data-aos="fade-zoom-in" data-aos-delay={200}>Gain visibility in MTVbase & other top Music TV channels & access to top-tier training, mentorship & A-List Music Record Label Giants</p>
+								<p className="pe-10 mb-5" data-aos="fade-zoom-in" data-aos-delay={200}>Gain visibility with over 200M viewers across various DSTV channels including WAPTV, Wazobia, MTVbase & other top Music TV channels & access to top-tier training, mentorship & industry connection to Movie Producers & A-List Music Record Label Giants</p>
 								<Link href="/page-services-1" className="btn btn-gradient" data-aos="fade-zoom-in" data-aos-delay={300}>
 									Register Now
 									<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
@@ -42,7 +42,7 @@ export default function Hero1() {
 											<img className="avt-hero" src="/assets/imgs/hero-1/avatar-2.png" alt="Spotlight" />
 											<img className="avt-hero" src=" assets/imgs/hero-1/avatar-3.png" alt="Spotlight" />
 										</div>
-										<span className="fs-6 fw-bold">4.8/5 <span className="text-secondary fw-medium">(26k Reviews)</span></span>
+										<span className="fs-6 fw-bold">4.9/5 <span className="text-secondary fw-medium">(26k Reviews)</span></span>
 									</div>
 									<div className="ms-3" data-aos="fade-zoom-in" data-aos-delay={300}>
 										<img src="/assets/imgs/hero-1/brand-1.svg" alt="Spotlight" />

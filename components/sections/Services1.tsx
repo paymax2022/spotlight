@@ -8,19 +8,18 @@ export default function Services1() {
 				<div className="container">
 					<div className="text-center">
 						{/* <div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
-							<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
+							<img src="/assets/imgs/features-1/dots.png" alt="spotlight" />
 							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">What we ossffers</span>
 						</div> */}
 						<h3 className="ds-3 my-3" data-aos="fade-zoom-in" data-aos-delay={300}>Explore Our Services</h3>
-						<p data-aos="fade-zoom-in" data-aos-delay={100}>By doing a financial analysis of these statements, you can see <br /> whether you have enough working capital.</p>
-					</div>
+						</div>
 					<div className="row mt-6 position-relative">
 						<div className="col-lg-4">
 							<div className="p-2 mt-lg-8 rounded-4 shadow-1 bg-white position-relative z-1 hover-up" data-aos="fade-zoom-in" data-aos-delay={100}>
 								<div className="card-service bg-white p-6 border rounded-4">
-									<img src="/assets/imgs/service-1/icon-1.svg" alt="infinia" />
-									<h6 className="my-3">Auditions</h6>
-									<p className="mb-6">Start your journey. Register online or attend live auditions to showcase your talent and join the spotlight.</p>
+									<img src="/assets/imgs/service-1/icon-1.svg" alt="spotlight" />
+									<h6 className="my-3">Training through Reality Tv</h6>
+									<p className="mb-6">Start your journey. Register online and follow the guide to showcase your talent and join the spotlight.</p>
 									<Link href="#" className="rounded-pill border icon-shape d-inline-flex gap-3 icon-learn-more">
 										<svg className="plus" xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
 											<g clipPath="url(#clip0_226_5470)">
@@ -41,10 +40,10 @@ export default function Services1() {
 							</div>
 							<div className="p-2 mt-5 rounded-4 shadow-1 bg-white position-relative z-1 hover-up" data-aos="fade-zoom-in" data-aos-delay={200}>
 								<div className="card-service bg-white p-6 border rounded-3">
-									<img src="/assets/imgs/service-1/icon-2.svg" alt="infinia" />
-									<h6 className="my-3">Bootcamp</h6>
+									<img src="/assets/imgs/service-1/icon-2.svg" alt="spotlight" />
+									<h6 className="my-3">Youth Empowerment</h6>
 									<p className="mb-6">An intensive experience where talents are refined through coaching, rehearsals, studio sessions, and mentorship from industry professionals.</p>
-									<Link href="#" className="rounded-pill border icon-shape d-inline-flex gap-3 icon-learn-more">
+									<Link href="youth-empowerment" className="rounded-pill border icon-shape d-inline-flex gap-3 icon-learn-more">
 										<svg className="plus" xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
 											<g clipPath="url(#clip0_226_5470)">
 												<path className="fill-dark" d="M15.375 7.375H8.625V0.625C8.625 0.279813 8.34519 0 8 0C7.65481 0 7.375 0.279813 7.375 0.625V7.375H0.625C0.279813 7.375 0 7.65481 0 8C0 8.34519 0.279813 8.625 0.625 8.625H7.375V15.375C7.375 15.7202 7.65481 16 8 16C8.34519 16 8.625 15.7202 8.625 15.375V8.625H15.375C15.7202 8.625 16 8.34519 16 8C16 7.65481 15.7202 7.375 15.375 7.375Z" fill="#111827" />
@@ -66,8 +65,8 @@ export default function Services1() {
 						<div className="col-lg-4">
 							<div className="p-2 mt-5 rounded-4 shadow-1 bg-white position-relative z-1 hover-up" data-aos="fade-zoom-in" data-aos-delay={300}>
 								<div className="card-service bg-white p-6 border rounded-3">
-									<img src="/assets/imgs/service-1/icon-3.svg" alt="infinia" />
-									<h6 className="my-3">The Reality Show</h6>
+									<img src="/assets/imgs/service-1/icon-3.svg" alt="spotlight" />
+									<h6 className="my-3"> Reality TV Show</h6>
 									<p className="mb-6">Follow thrilling daily episodes as contestants compete, evolve, and rise to stardom in our spotlight talent hunt.</p>
 									<Link href="#" className="rounded-pill border icon-shape d-inline-flex gap-3 icon-learn-more">
 										<svg className="plus" xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
@@ -89,7 +88,7 @@ export default function Services1() {
 							</div>
 							<div className="p-2 mt-5 rounded-4 shadow-1 bg-white position-relative z-1 hover-up" data-aos="fade-zoom-in" data-aos-delay={100}>
 								<div className="card-service bg-white p-6 border rounded-3">
-									<img src="/assets/imgs/service-1/icon-4.svg" alt="infinia" />
+									<img src="/assets/imgs/service-1/icon-4.svg" alt="spotlight" />
 									<h6 className="my-3">Spotlight Talent Vault</h6>
 									<p className="mb-6">Discover Nigeria’s next stars. Access top-rated contestants’ profiles, demos, and booking opportunities—all in one place.
 
@@ -116,9 +115,9 @@ export default function Services1() {
 						<div className="col-lg-4">
 							<div className="p-2 mt-lg-8 mt-5 rounded-4 shadow-1 bg-white position-relative z-1 hover-up hover-up" data-aos="fade-zoom-in" data-aos-delay={200}>
 								<div className="card-service bg-white p-6 border rounded-3">
-									<img src="/assets/imgs/service-1/icon-5.svg" alt="infinia" />
-									<h6 className="my-3"> Record Labels & A&R Access </h6>
-									<p className="mb-6">Explore curated talent ready for signing. Labels and A&Rs get exclusive access to demos, EPKs, and showcases.</p>
+									<img src="/assets/imgs/service-1/icon-5.svg" alt="spotlight" />
+									<h6 className="my-3"> Brand Sponsorship/Partnership </h6>
+									<p className="mb-6">We provide brands maximum visibility through customized entertaining advert on our reality Tv shows.</p>
 									<Link href="#" className="rounded-pill border icon-shape d-inline-flex gap-3 icon-learn-more">
 										<svg className="plus" xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
 											<g clipPath="url(#clip0_226_5470)">
@@ -139,7 +138,7 @@ export default function Services1() {
 							</div>
 							<div className="p-2 mt-5 rounded-4 shadow-1 bg-white position-relative z-1 hover-up" data-aos="fade-zoom-in" data-aos-delay={300}>
 								<div className="card-service bg-white p-6 border rounded-3">
-									<img src="/assets/imgs/service-1/icon-6.svg" alt="infinia" />
+									<img src="/assets/imgs/service-1/icon-6.svg" alt="spotlight" />
 									<h6 className="my-3">Spotlight Academy</h6>
 									<p className="mb-6">Learn music, branding, and performance from top experts. Grow your talent with certified courses and real industry mentorship</p>
 									<Link href="#" className="rounded-pill border icon-shape d-inline-flex gap-3 icon-learn-more">
@@ -162,7 +161,7 @@ export default function Services1() {
 							</div>
 						</div>
 						<div className="position-absolute top-50 start-50 translate-middle z-0">
-							<img src="/assets/imgs/service-1/img-bg.png" alt="infinia" />
+							<img src="/assets/imgs/service-1/img-bg.png" alt="spotlight" />
 						</div>
 					</div>
 				</div>

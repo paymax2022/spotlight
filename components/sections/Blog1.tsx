@@ -27,7 +27,7 @@ export default function Blog1() {
 						{/* prettier-ignore */}
 						<div className="col-lg-4 text-start">
 							<div className="card border-0 rounded-3 mt-8 position-relative d-inline-flex" data-aos="fade-zoom-in" data-aos-delay={100}>
-								<img className="rounded-3" src="/assets/imgs/blog-1/card-img-1.png" alt="spotlight" />
+								<img className="rounded-3" src="/assets/imgs/cta-4/music.png" alt="spotlight" />
 								<div className="card-body p-0 bg-white">
 									<Link href="#" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
 										<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">Shout Out</span>
@@ -40,7 +40,7 @@ export default function Blog1() {
 						</div>
 						<div className="col-lg-4 text-start">
 							<div className="card border-0 rounded-3 mt-8 position-relative d-inline-flex" data-aos="fade-zoom-in" data-aos-delay={200}>
-								<img className="rounded-3" src="/assets/imgs/blog-1/card-img-2.png" alt="spotlight" />
+								<img className="rounded-3" src="/assets/imgs/cta-4/family.png" alt="spotlight" />
 								<div className="card-body p-0 bg-white">
 									<Link href="#" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
 										<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">Media Partners</span>
@@ -53,13 +53,13 @@ export default function Blog1() {
 						</div>
 						<div className="col-lg-4 text-start">
 							<div className="card border-0 rounded-3 mt-8 position-relative d-inline-flex" data-aos="fade-zoom-in" data-aos-delay={300}>
-								<img className="rounded-3" src="/assets/imgs/blog-1/card-img-3.png" alt="spotlight" />
+								<img className="rounded-3" src="/assets/imgs/cta-4/movie-1.jpg" alt="spotlight" />
 								<div className="card-body p-0 bg-white">
 									<Link href="#" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
-										<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">Audition</span>
+										<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">House Mates - Contestants - Bootcamp</span>
 									</Link>
-									<h6 className="my-3">Lagos, Rivers, Enugu, Asaba, Abuja, Calabar</h6>
-									<p>Your journey starts here. Register online & join our live auditions to be discovered and trained for stardom...</p>
+									<h6 className="my-3">Our 5 star House-Mate Mansion</h6>
+									<p>Your journey starts here. Register online & join and a chance to be discovered and trained for stardom...</p>
 								</div>
 								<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 							</div>

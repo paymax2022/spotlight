@@ -11,24 +11,24 @@ export default function Newsletter1() {
 						<div className="col-lg-6 my-4">
 							<div className="row">
 								<div className="ms-lg-4">
-									<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-1.png" alt="spotlight" />
-									<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-2.png" alt="spotlight" data-aos="fade-zoom-in" data-aos-delay={50} />
-									<img className="rounded-4 border border-3 border-white me-3 mb-3 d-none d-md-inline" src="/assets/imgs/newsletter-1/img-3.png" alt="spotlight" />
+									<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/cta-4/1.png" alt="spotlight" />
+									<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/cta-4/3.png" alt="spotlight" data-aos="fade-zoom-in" data-aos-delay={50} />
+									<img className="rounded-4 border border-3 border-white me-3 mb-3 d-none d-md-inline" src="/assets/imgs/cta-4/2.png" alt="spotlight" />
 								</div>
 							</div>
 							<div className="row">
 								<div>
-									<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-4.png" alt="spotlight" />
-									<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-5.png" alt="spotlight" data-aos="fade-zoom-in" data-aos-delay={100} />
-									<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-6.png" alt="spotlight" />
-									<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-7.png" alt="spotlight" data-aos="fade-zoom-in" data-aos-delay={100} />
+									<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/cta-4/4.png" alt="spotlight" />
+									<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/cta-4/5.png" alt="spotlight" data-aos="fade-zoom-in" data-aos-delay={100} />
+									<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/cta-4/6.png" alt="spotlight" />
+									<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/cta-4/7.png" alt="spotlight" data-aos="fade-zoom-in" data-aos-delay={100} />
 								</div>
 							</div>
 							<div className="row d-none d-lg-flex">
 								<div className="me-lg-0">
-									<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-8.png" alt="spotlight" data-aos="fade-zoom-in" data-aos-delay={50} />
-									<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-9.png" alt="spotlight" data-aos="fade-zoom-in" data-aos-delay={100} />
-									<img className="rounded-4 border border-3 border-white me-3 mb-3 d-none d-md-inline" src="/assets/imgs/newsletter-1/img-10.png" alt="spotlight" />
+									<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/cta-4/8.png" alt="spotlight" data-aos="fade-zoom-in" data-aos-delay={50} />
+									<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/cta-4/9.png" alt="spotlight" data-aos="fade-zoom-in" data-aos-delay={100} />
+									<img className="rounded-4 border border-3 border-white me-3 mb-3 d-none d-md-inline" src="/assets/imgs/cta-4/10.png" alt="spotlight" />
 								</div>
 							</div>
 						</div>

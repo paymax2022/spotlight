@@ -57,11 +57,15 @@ export default function Cta7() {
 													<ul className="list-unstyled phase-items mb-0">
 														<li className="d-flex align-items-center mt-3">
 															<img src="/assets/imgs/cta-2/check.svg" alt="spotlight" />
-															<p className="ms-2 mb-0 text-900 fs-6">Music Talent Hunt</p>
+															<p className="ms-2 mb-0 text-900 fs-6">Reality Tv shows</p>
 														</li>
 														<li className="d-flex align-items-center mt-3">
 															<img src="/assets/imgs/cta-2/check.svg" alt="spotlight" />
-															<p className="ms-2 mb-0 text-900 fs-6">Reality Tv shows</p>
+															<p className="ms-2 mb-0 text-900 fs-6"> Talent Hunt</p>
+														</li>
+														<li className="d-flex align-items-center mt-3">
+															<img src="/assets/imgs/cta-2/check.svg" alt="spotlight" />
+															<p className="ms-2 mb-0 text-900 fs-6">Movie & Music Production</p>
 														</li>
 														<li className="d-flex align-items-center mt-3">
 															<img src="/assets/imgs/cta-2/check.svg" alt="spotlight" />
@@ -88,12 +92,11 @@ export default function Cta7() {
 											</div>
 										</div>
 										<div className={`${isTab == 2 ? "tab-pane fade show active" : "tab-pane fade"}`} role="tabpanel">
-											<p className="text-900 mb-4">To discover, nurture, and elevate young musical talents by providing access to auditions, mentorship, training, and industry exposure through a dynamic talent hunt and reality TV platform.</p>
+											<p className="text-900 mb-4">Spotlight exists to discover, nurture, and elevate the next generation of talented Nigerian youth by leveraging the power of reality TV to promote creativity, personal growth, and socio-economic empowerment. Through engaging entertainment, we spotlight untapped potential and provide life-changing platforms that inspire hope, resilience, and transformation.</p>
 											<div className="row">
 												<div className="col-12 col-md-6">
-													<p className="text-900">We achieve our mission by conducting nationwide auditions to discover exceptional young singers, songwriters, and producers. Selected talents undergo intensive bootcamp training led by top industry mentors..</p>
-													<p>Through our professionally produced reality TV show, participants gain national exposure, performance experience, and access to career-launching opportunities. We further support their journey by connecting them with record labels, music executives, and sponsors</p>
-												<p>This structured process transforms raw passion into refined skill, preparing young creatives for long-term success in the music industry.</p>
+													<p className="text-900">We achieve this mission by organizing nationwide talent hunts, immersive bootcamps, skill-based competitions, mentorship programs and connecting identified talents with industry experts for career development, further training and employment. </p>
+													<p>Through partnerships with industry leaders, sponsors, and media houses, we provide training, exposure, and real opportunities. Our reality TV format ensures mass engagement, while integrating education, entrepreneurship, and social challenges to deliver holistic empowerment beyond entertainment — creating impactful youth stories that drive national development.</p>
 												</div>
 												<div className="col position-relative text-center">
 													<img src="/assets/imgs/team-4/image_fx110.png" alt="" />

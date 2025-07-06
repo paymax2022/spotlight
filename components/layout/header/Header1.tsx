@@ -12,7 +12,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 				<nav className={`navbar navbar-expand-lg navbar-light w-100 z-999 ${scroll ? 'navbar-stick' : ''}`} style={{ position: `${scroll? "fixed" : "relative"}`, top: `${scroll? "0" : "auto"}` }}>
 					<div className="container">
 						<Link className="navbar-brand d-flex main-logo align-items-center" href="/">
-							<img src="/assets/imgs/template/favicon.svg" alt="infinia" />
+							<img src="/assets/imgs/template/favicon.svg" alt="spotlight" />
 							<span>Spotlight</span>
 						</Link>
 						<Menu/>
@@ -24,7 +24,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 							</div>
 							<ThemeSwitch />
 							<Link href="#" className="btn btn-gradient d-none d-md-block">
-								Join For Free Trial
+								Register Now
 							</Link>
 							<div className="burger-icon burger-icon-white border rounded-3" onClick={handleMobileMenu}>
 								<span className="burger-icon-top" />

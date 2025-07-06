@@ -407,7 +407,7 @@ export default function SectionNavigation() {
 									<i className="bi theme-icon bi-moon-stars-fill" />
 								</div>
 								<Link href="#" className="btn btn-gradient d-none d-md-block">
-									Join For Free Trial
+									Register Now
 								</Link>
 								<div className="burger-icon burger-icon-white border rounded-3">
 									<span className="burger-icon-top" />
@@ -1039,7 +1039,7 @@ export default function SectionNavigation() {
 									<i className="bi theme-icon bi-moon-stars-fill" />
 								</div>
 								<Link href="#" className="btn btn-gradient d-none d-md-block">
-									Join For Free Trial
+									Register Now
 								</Link>
 								<div className="burger-icon burger-icon-white border rounded-3">
 									<span className="burger-icon-top" />
@@ -1709,7 +1709,7 @@ export default function SectionNavigation() {
 									<i className="bi theme-icon bi-moon-stars-fill" />
 								</div>
 								<Link href="#" className="btn btn-gradient d-none d-md-block">
-									Join For Free Trial
+									Register Now
 								</Link>
 								<div className="burger-icon burger-icon-white border rounded-3">
 									<span className="burger-icon-top" />
