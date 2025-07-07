@@ -113,7 +113,7 @@ export default function PageContact1() {
 							<div className="col-lg-6 ps-lg-0 pt-5 pt-lg-0">
 								<div className="position-relative">
 									<div className="position-relative z-2 p-3 p-md-5 p-lg-8 rounded-3 bg-primary">
-										<h3 className="text-white">Registration Form</h3>
+										<h3 className="text-white">Reality TV Contest Registration Form</h3>
 										<p className="text-white">This is your ticket to the world, gran it and run with it</p>
 										<form action="#">
 											<div className="row mt-5">
@@ -135,7 +135,7 @@ export default function PageContact1() {
 																<path d="M8.89286 4.75H6.06818C5.34017 4.75 4.75 5.34017 4.75 6.06818C4.75 13.3483 10.6517 19.25 17.9318 19.25C18.6598 19.25 19.25 18.6598 19.25 17.9318V15.1071L16.1429 13.0357L14.5317 14.6468C14.2519 14.9267 13.8337 15.0137 13.4821 14.8321C12.8858 14.524 11.9181 13.9452 10.9643 13.0357C9.98768 12.1045 9.41548 11.1011 9.12829 10.494C8.96734 10.1537 9.06052 9.76091 9.32669 9.49474L10.9643 7.85714L8.89286 4.75Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</svg>
 														</div>
-														<input type="text" className="form-control ms-0 border rounded-2 rounded-start-0 border-start-0" name="name" placeholder="info@" aria-label="email" />
+														<input type="text" className="form-control ms-0 border rounded-2 rounded-start-0 border-start-0" name="name" placeholder="+234" aria-label="phone" />
 													</div>
 												</div>
 												<div className="col-md-6">
@@ -146,7 +146,7 @@ export default function PageContact1() {
 																<path d="M5.5 6.5L12 12.25L18.5 6.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</svg>
 														</div>
-														<input type="text" className="form-control ms-0 border rounded-2 rounded-start-0 border-start-0" name="name" placeholder="Phone" aria-label="phone" />
+														<input type="text" className="form-control ms-0 border rounded-2 rounded-start-0 border-start-0" name="Email" placeholder="Email" aria-label="email" />
 													</div>
 												</div>
 												<div className="col-md-6">
@@ -157,7 +157,7 @@ export default function PageContact1() {
 																<path d="M9.75 15.749C9.75 14.6444 10.6455 13.749 11.75 13.749H12.25C13.3546 13.749 14.25 14.6444 14.25 15.749V19.249H9.75V15.749Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</svg>
 														</div>
-														<input type="text" className="form-control ms-0 border rounded-2 rounded-start-0 border-start-0" name="name" placeholder="Subject" aria-label="subject" />
+														<input type="text" className="form-control ms-0 border rounded-2 rounded-start-0 border-start-0" name="Address" placeholder="Address" aria-label="Address" />
 													</div>
 												</div>
 												<div className="col-12">
@@ -168,12 +168,12 @@ export default function PageContact1() {
 																<path d="M17.3285 1.20344L16.4448 0.319749C16.0185 -0.106583 15.3248 -0.106583 14.8984 0.319749L7.82915 7.38907C7.76373 7.45449 7.71914 7.53782 7.70096 7.62854L7.2591 9.83772C7.22839 9.99137 7.27647 10.1502 7.38729 10.261C7.47605 10.3498 7.59561 10.3983 7.71864 10.3983C7.74923 10.3983 7.77997 10.3953 7.81053 10.3892L10.0197 9.94732C10.1104 9.92917 10.1938 9.88455 10.2592 9.81913L17.3285 2.74984C17.3285 2.74984 17.3286 2.74984 17.3286 2.74981C17.7549 2.32351 17.7549 1.6298 17.3285 1.20344ZM9.69678 9.05607L8.31606 9.33225L8.59224 7.95153L14.3461 2.19754L15.4507 3.30214L9.69678 9.05607ZM16.6658 2.0871L16.1135 2.6394L15.0089 1.53479L15.5612 0.982524C15.6221 0.921601 15.7212 0.92157 15.7821 0.982493L16.6658 1.86618C16.7267 1.92707 16.7267 2.0262 16.6658 2.0871Z" fill="white" />
 															</svg>
 														</div>
-														<textarea className="form-control border border-start-0 ms-0 rounded-start-0 rounded-1 pb-10" name="name" placeholder="Describe Your Project in Short" aria-label="With textarea" />
+														<textarea className="form-control border border-start-0 ms-0 rounded-start-0 rounded-1 pb-10" name="name" placeholder="Describe Yourself and why you want to be in this show" aria-label="With textarea" />
 													</div>
 												</div>
 												<div className="col-12">
 													<button type="submit" className="btn bg-white-keep text-primary hover-up mt-3">
-														Send Message
+														Submit form
 														<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
 															<path d="M21.1059 12.2562H0.5V11.7443H21.1059H22.313L21.4594 10.8907L17.0558 6.48705L17.4177 6.12508L23.2929 12.0002L17.4177 17.8754L17.0558 17.5134L21.4594 13.1098L22.313 12.2562H21.1059Z" fill="black" stroke="#6D4DF2" />
 														</svg>

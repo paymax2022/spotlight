@@ -27,10 +27,10 @@ export default function Cta7() {
 									<div className="position-relative z-1 d-inline-block mb-lg-0 mb-8">
 										<img className="rounded-4 position-relative z-1" src="/assets/imgs/cta-4/spotlight1.jpeg" alt="spotlight" />
 										<div className="alltuchtopdown position-absolute top-50 start-50 ms-md-10 mt-md-10 backdrop-filter bg-primary rounded-4 px-6 py-4 text-center z-1">
-											<span className="h2 count fw-black mb-0 lh-1 text-white text-nowrap">+<span className="odometer" /><CountUp end={2} enableScrollSpy={true} />k</span>
-											<p className="text-white text-nowrap border-bottom border-opacity-50 border-white pb-3 mb-3">Patrons/Partners</p>
-											<span className="h2 count fw-black my-0 lh-1 text-white text-nowrap">+<span className="odometer" /><CountUp end={70} enableScrollSpy={true} />k</span>
-											<p className="text-white text-nowrap mb-0">Particpants</p>
+											<span className="h2 count fw-black mb-0 lh-1 text-white text-nowrap">+<span className="odometer" /><CountUp end={10} enableScrollSpy={true} /></span>
+											<p className="text-white text-nowrap border-bottom border-opacity-50 border-white pb-3 mb-3">Brands Sponsors</p>
+											<span className="h2 count fw-black my-0 lh-1 text-white text-nowrap">+<span className="odometer" /><CountUp end={400} enableScrollSpy={true} /></span>
+											<p className="text-white text-nowrap mb-0">Contestants in 4days</p>
 										</div>
 									</div>
 								</div>
