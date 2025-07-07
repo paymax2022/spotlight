@@ -23,7 +23,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSear
 								</svg>
 							</Link>
 							<ThemeSwitch />
-							<Link href="#" className="btn btn-gradient d-none d-md-block">
+							<Link href="register" className="btn btn-gradient d-none d-md-block">
 								Register Now
 							</Link>
 							<div className="burger-icon burger-icon-white border rounded-3" onClick={handleMobileMenu}>

@@ -544,7 +544,7 @@ export default function SectionContact() {
 									<h6>Help  support</h6>
 									<p className="text-500">
 										Email <span className="text-900">promotion@spotlightng.com</span> For <br />
-										Brand posotioning, product activation and integration <br />
+										Brand positioning, product activation and integration <br />
 										Talk to us for maximum audience reach
 									</p>
 								</div>

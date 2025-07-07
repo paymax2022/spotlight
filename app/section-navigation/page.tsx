@@ -406,7 +406,7 @@ export default function SectionNavigation() {
 									<i className="bi theme-icon bi-sun-fill" />
 									<i className="bi theme-icon bi-moon-stars-fill" />
 								</div>
-								<Link href="#" className="btn btn-gradient d-none d-md-block">
+								<Link href="register" className="btn btn-gradient d-none d-md-block">
 									Register Now
 								</Link>
 								<div className="burger-icon burger-icon-white border rounded-3">
@@ -1038,7 +1038,7 @@ export default function SectionNavigation() {
 									<i className="bi theme-icon bi-sun-fill" />
 									<i className="bi theme-icon bi-moon-stars-fill" />
 								</div>
-								<Link href="#" className="btn btn-gradient d-none d-md-block">
+								<Link href="register" className="btn btn-gradient d-none d-md-block">
 									Register Now
 								</Link>
 								<div className="burger-icon burger-icon-white border rounded-3">
@@ -1708,7 +1708,7 @@ export default function SectionNavigation() {
 									<i className="bi theme-icon bi-sun-fill" />
 									<i className="bi theme-icon bi-moon-stars-fill" />
 								</div>
-								<Link href="#" className="btn btn-gradient d-none d-md-block">
+								<Link href="register" className="btn btn-gradient d-none d-md-block">
 									Register Now
 								</Link>
 								<div className="burger-icon burger-icon-white border rounded-3">

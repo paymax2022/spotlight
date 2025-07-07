@@ -11,7 +11,7 @@ export default function Menu() {
 						<Link className="nav-link fw-bold d-flex align-items-center" href="/">Home</Link>
 					</li>
 					<li className="nav-item">
-						<Link className="nav-link fw-bold d-flex align-items-center" href="/page-about-3">About Us</Link>
+						<Link className="nav-link fw-bold d-flex align-items-center" href="/about">About Us</Link>
 					</li>
 					
 					{/* <li className="nav-item dropdown has-mega-menu">
@@ -154,7 +154,7 @@ export default function Menu() {
 					</li> */}
 					{/*  a */}
 					<li className="nav-item">
-						<Link className="nav-link fw-bold d-flex align-items-center" href="/page-contact-1">Contact</Link>
+						<Link className="nav-link fw-bold d-flex align-items-center" href="/contact">Contact</Link>
 					</li>
 				</ul>
 			</div>

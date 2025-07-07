@@ -19,7 +19,7 @@ export default function Hero1() {
 								</Link>
 								<h3 className="ds-3 mt-4 mb-5" data-aos="fade-zoom-in" data-aos-delay={0}>Igniting Dreams, Empowering Talent, Changing Lives.</h3>
 								<p className="pe-10 mb-5" data-aos="fade-zoom-in" data-aos-delay={200}>Gain visibility with over 200M viewers across various DSTV channels including WAPTV, Wazobia, MTVbase & other top Music TV channels & access to top-tier training, mentorship & industry connection to Movie Producers & A-List Music Record Label Giants</p>
-								<Link href="/page-services-1" className="btn btn-gradient" data-aos="fade-zoom-in" data-aos-delay={300}>
+								<Link href="/register" className="btn btn-gradient" data-aos="fade-zoom-in" data-aos-delay={300}>
 									Register Now
 									<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
 										<path className="stroke-white" d="M17.25 15.25V6.75H8.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
