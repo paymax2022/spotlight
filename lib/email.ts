@@ -187,8 +187,8 @@ export async function sendContactEmails(contact: any, contest: any) {
         transporter.sendMail({
           from: process.env.EMAIL_FROM,
           ...email,
-        }).then((info) => ({ status: "success", to: email.to, messageId: info.messageId }))
-          .catch((error) => ({ status: "error", to: email.to, error: error.message }))
+        }).then((info: { messageId: any; }) => ({ status: "success", to: email.to, messageId: info.messageId }))
+          .catch((error: { message: any; }) => ({ status: "error", to: email.to, error: error.message }))
       )
     );
 
