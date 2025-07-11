@@ -79,7 +79,6 @@ export default function PageContact1() {
     e.preventDefault();
     setIsSubmitting(true);
     setStatus("");
-
     try {
       let imageUrl = "";
       if (selectedFile) {
